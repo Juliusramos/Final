@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:id="@+id/it1v"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_conversion_tool"
+            android:icon="@drawable/baseline_calculate_24"
+            android:title="Conversion tool"/>
+        <item
+            android:id="@+id/nav_budget_tracking"
+            android:icon="@drawable/baseline_attach_money_24"
+            android:title="Budget Tracking"/>
+        <item
+            android:id="@+id/nav_fridge"
+            android:icon="@drawable/baseline_door_sliding_24"
+            android:title="Fridge"/>
+        <item
+            android:id="@+id/nav_dish_randomizer"
+            android:icon="@drawable/baseline_rotate_90_degrees_cw_24"
+            android:title="Dish Randomizer"/>
+
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Profile"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/baseline_info_24"
+            android:title="About us"/>
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_exit_to_app_24"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>

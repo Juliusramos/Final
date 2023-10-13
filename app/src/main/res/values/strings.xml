@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FooDish</string>
+    <string name="welcome_to_foodish">Welcome to FooDish!</string>
+    <string name="todo">TODO</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="type_your_email">Type your Email</string>
+    <string name="home" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="todoa">TODO</string>
+</resources>

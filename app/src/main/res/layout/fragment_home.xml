@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".nav_fragments.HomeFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bottomFragment"/>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/orange"
+        app:contentInsetEnd="0dp"
+        app:contentInsetStart="0dp"
+        app:fabCradleMargin="10dp"
+        app:fabCradleRoundedCornerRadius="20dp"
+        app:fabAlignmentMode="center">
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:itemIconTint="@color/black"
+            android:elevation="0dp"
+            app:itemRippleColor="@color/black"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/nav_bottom"/>
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_add_24"
+        android:tint="@color/white"
+        android:backgroundTint="@color/orange"
+        app:layout_anchor="@id/bottomAppBar"
+        android:contentDescription="@string/todo" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
