@@ -2,17 +2,187 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".nav_fragments.AboutFragment">
+    android:layout_height="750dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".bottom_fragments.Home2Fragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Home nav"
-        android:textSize="32dp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:textColor="@color/orange"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/whole">
 
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pagkain Dol!"
+            android:textSize="25dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="20dp"
+            tools:ignore="MissingConstraints">
+
+        </TextView>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/Adobo"
+                    android:layout_width="150dp"
+                    android:layout_height="170dp"
+                    android:background="@color/orange"
+                    android:layout_marginTop="50dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageButton
+                        android:layout_width="150dp"
+                        android:layout_height="137dp"
+                        android:src="@drawable/adobo"
+                        android:padding="-50dp"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="TODO">
+                    </ImageButton>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pork Adobo"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="@color/orange"
+                        android:layout_gravity="bottom">
+                    </TextView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/tinola"
+                    android:layout_width="150dp"
+                    android:layout_height="170dp"
+                    android:background="@color/orange"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageButton
+                        android:layout_width="150dp"
+                        android:layout_height="137dp"
+                        android:src="@drawable/tinola"
+                        android:padding="-50dp"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="TODO">
+                    </ImageButton>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tinola"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="@color/orange"
+                        android:layout_gravity="bottom">
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/menudo"
+                    android:layout_width="150dp"
+                    android:layout_height="170dp"
+                    android:background="@color/orange"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageButton
+                        android:layout_width="150dp"
+                        android:layout_height="137dp"
+                        android:src="@drawable/menudo"
+                        android:padding="-50dp"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="TODO">
+                    </ImageButton>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Menudo"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="@color/orange"
+                        android:layout_gravity="bottom">
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sinigang"
+                    android:layout_width="150dp"
+                    android:layout_height="170dp"
+                    android:background="@color/orange"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageButton
+                        android:layout_width="150dp"
+                        android:layout_height="137dp"
+                        android:src="@drawable/sinigago"
+                        android:padding="-50dp"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="TODO">
+                    </ImageButton>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sinigago"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="@color/orange"
+                        android:layout_gravity="bottom">
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/curry"
+                    android:layout_width="150dp"
+                    android:layout_height="170dp"
+                    android:background="@color/orange"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageButton
+                        android:layout_width="150dp"
+                        android:layout_height="137dp"
+                        android:src="@drawable/chickencurry"
+                        android:padding="-50dp"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="TODO">
+                    </ImageButton>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Seth Curry"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:background="@color/orange"
+                        android:layout_gravity="bottom">
+                    </TextView>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

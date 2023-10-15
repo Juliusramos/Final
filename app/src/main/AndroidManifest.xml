@@ -13,13 +13,15 @@
         android:theme="@style/Theme.LoginActivity"
         tools:targetApi="31">
         <activity
+            android:name=".Bottom2"
+            android:exported="false"
+            android:label="@string/title_activity_bottom2" />
+        <activity
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
             android:name=".SingInActivity"
-            android:exported="false">
-        </activity>
-
+            android:exported="false"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"

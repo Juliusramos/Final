@@ -13,4 +13,14 @@
     <string name="open_drawer">Open Drawer</string>
     <string name="close_drawer">Close Drawer</string>
     <string name="todoa">TODO</string>
+    <string name="to">To</string>
+    <string name="convert">Convert</string>
+    <string name="from">From</string>
+    <string name="enter_the_amount">Amount</string>
+    <string name="unit_converter">Unit Converter</string>
+    <string name="result">Result</string>
+    <string name="title_activity_bottom2">Bottom2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
