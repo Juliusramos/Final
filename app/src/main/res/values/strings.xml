@@ -26,4 +26,8 @@
     <string name="enter_expense_amount_php">Enter Expense Amount(PHP)</string>
     <string name="add_expense">Add Expense</string>
     <string name="total_expense_php0_00">Total Expense: PHP0.00</string>
+    <string name="title_activity_bottom2">Bottom2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
