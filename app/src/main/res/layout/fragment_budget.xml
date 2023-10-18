@@ -1,17 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".nav_fragments.BudgetFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/foodish_budget_tracker"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/expense_name"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Budget Tracking"
-        android:textSize="32dp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:textColor="@color/orange"/>
-</FrameLayout>
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_expense_name"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:padding="16dp"/>
+
+
+    <EditText
+        android:id="@+id/expense_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_expense_amount_php"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+        android:padding="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_expense"
+        android:id="@+id/expense_button"
+        android:textSize="16sp"
+        android:padding="16dp" />
+
+
+    <ListView
+        android:id="@+id/expense_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_expense_php0_00"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
