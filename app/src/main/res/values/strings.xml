@@ -30,4 +30,12 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+
+    <string name="foodish_budget_tracker">Foodish Budget Tracker</string>
+    <string name="enter_expense_name">Enter Expense Name</string>
+    <string name="total_expense_php">Total Expense: PHP%1$s</string>
+    <string name="enter_expense_amount_php">Enter Expense Amount(PHP)</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="total_expense_php0_00">Total Expense: PHP0.00</string>
 </resources>
