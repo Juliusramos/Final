@@ -30,14 +30,6 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <string name="foodish_is_a_filipino_food_recipe_application_that_provide_users_with_a_wide_range_of_recipes_typically_for_breakfast_lunch_and_dinner_meals_a_list_of_recipes_and_food_related_images_make_up_the_application_that_aims_to_simplify_and_help_user_enhance_their_cooking_experience_by_providing_a_diverse_array_of_recipe_along_with_helpful_features_to_help_improve_their_cooking_skills">FooDish is a Filipino food recipe application that provide users with a wide range of recipes typically for breakfast,lunch, and dinner meals. A list of recipes and food-related images make up the application that aims to simplify and help user enhance their cooking experience by providing a diverse array of recipe along with helpful features to help improve their cooking skills.</string>
-    <string name="about_foodish">About FooDish</string>
-    <string name="our_team">Our Team</string>
-    <string name="menard_james_sayson_nbachelor_of_information_and_technology_programming_nsmenardjames_gmail_com">Menard James Sayson\nBachelor of Information and Technology Programming\nsmenardjames@gmail.com</string>
-    <string name="mharvin_caramat_nbachelor_of_information_and_technology_programming_ncaramatmharvin_gmail_com">Mharvin Caramat\nBachelor of Information and Technology Programming\ncaramatmharvin@gmail.com</string>
-    <string name="aljon_gutierrez_nbachelor_of_information_and_technology_programming_naljongutierrez08_gmail_com">Aljon Gutierrez\nBachelor of Information and Technology Programming\naljongutierrez08@gmail.com</string>
-    <string name="julius_adrian_ramos_nbachelor_of_information_and_technology_programming_njuliuscervantesramos_gmail_com">Julius Adrian Ramos\nBachelor of Information and Technology Programming\njuliuscervantesramos@gmail.com</string>
-    <string name="john_alexander_vargas_nbachelor_of_information_and_technology_programming_njobe_vargas_up_phinmaed_com">John Alexander Vargas\nBachelor of Information and Technology Programming\njobe.vargas.up@phinmaed.com</string>
     <string name="pork_adobo">Pork Adobo</string>
     <string name="top_picks">Top picks</string>
     <string name="tinola">Tinola</string>
@@ -48,6 +40,14 @@
     <string name="adobos">Adobos</string>
     <string name="sinigangs">Sinigangs</string>
     <string name="sisigs">Sisigs</string>
+    <string name="foodish_is_a_filipino_food_recipe_application_that_provide_users_with_a_wide_range_of_recipes_typically_for_breakfast_lunch_and_dinner_meals_a_list_of_recipes_and_food_related_images_make_up_the_application_that_aims_to_simplify_and_help_user_enhance_their_cooking_experience_by_providing_a_diverse_array_of_recipe_along_with_helpful_features_to_help_improve_their_cooking_skills">FooDish is a Filipino food recipe application that provide users with a wide range of recipes typically for breakfast,lunch, and dinner meals. A list of recipes and food-related images make up the application that aims to simplify and help user enhance their cooking experience by providing a diverse array of recipe along with helpful features to help improve their cooking skills.</string>
+    <string name="about_foodish">About FooDish</string>
+    <string name="our_team">Our Team</string>
+    <string name="menard_james_sayson_nbachelor_of_information_and_technology_programming_nsmenardjames_gmail_com">Menard James Sayson\nBachelor of Information and Technology Programming\nsmenardjames@gmail.com</string>
+    <string name="mharvin_caramat_nbachelor_of_information_and_technology_programming_ncaramatmharvin_gmail_com">Mharvin Caramat\nBachelor of Information and Technology Programming\ncaramatmharvin@gmail.com</string>
+    <string name="aljon_gutierrez_nbachelor_of_information_and_technology_programming_naljongutierrez08_gmail_com">Aljon Gutierrez\nBachelor of Information and Technology Programming\naljongutierrez08@gmail.com</string>
+    <string name="julius_adrian_ramos_nbachelor_of_information_and_technology_programming_njuliuscervantesramos_gmail_com">Julius Adrian Ramos\nBachelor of Information and Technology Programming\njuliuscervantesramos@gmail.com</string>
+    <string name="john_alexander_vargas_nbachelor_of_information_and_technology_programming_njobe_vargas_up_phinmaed_com">John Alexander Vargas\nBachelor of Information and Technology Programming\njobe.vargas.up@phinmaed.com</string>
     <string name="bl_adobosagata">
          \u2022 3 pounds pork shoulder, cut into 2-inch cubes \n
          \u2022 1 onion, peeled and sliced thinly \n
