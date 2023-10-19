@@ -16,7 +16,7 @@ class ConversionFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view=inflater.inflate(R.layout.fragment_conversion, container, false)
+        val view = inflater.inflate(R.layout.fragment_conversion, container, false)
         val etfn = view.findViewById<EditText>(R.id.et_firstnum)
         val spfr = view.findViewById<Spinner>(R.id.spfr)
         val spto = view.findViewById<Spinner>(R.id.spto)
