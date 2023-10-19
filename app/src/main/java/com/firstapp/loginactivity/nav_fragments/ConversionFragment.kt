@@ -24,14 +24,14 @@ class ConversionFragment : Fragment() {
         val disformres = view.findViewById<EditText>(R.id.etdisformares)
 
         val from = arrayOf("mililiters (ml)", "Liters (L)", "Ounces (Oz)", "Cups (Metric)")
-        val ad = ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_dropdown_item, from)
+        val ad = ArrayAdapter(requireContext(), android.R.layout.simple_spinner_dropdown_item, from)
         spfr.adapter = ad
 
         val to = arrayOf("mililiters (ml)", "Liters (L)", "Ounces (Oz)", "Cups (Metric)")
-        val ad1 = ArrayAdapter<String>(requireContext(), android.R.layout.simple_spinner_dropdown_item, to)
+        val ad1 = ArrayAdapter(requireContext(), android.R.layout.simple_spinner_dropdown_item, to)
         spto.adapter = ad1
 
-        btcvrt.setOnClickListener() {
+        btcvrt.setOnClickListener{
             var result: Double
 
             val amount = etfn.text.toString().toDoubleOrNull()
