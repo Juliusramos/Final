@@ -13,6 +13,7 @@
     <string name="open_drawer">Open Drawer</string>
     <string name="close_drawer">Close Drawer</string>
     <string name="todoa">TODO</string>
+
     <string name="to">To</string>
     <string name="convert">Convert</string>
     <string name="from">From</string>
@@ -31,4 +32,47 @@
     <string name="aljon_gutierrez_nbachelor_of_information_and_technology_programming_naljongutierrez08_gmail_com">Aljon Gutierrez\nBachelor of Information and Technology Programming\naljongutierrez08@gmail.com</string>
     <string name="julius_adrian_ramos_nbachelor_of_information_and_technology_programming_njuliuscervantesramos_gmail_com">Julius Adrian Ramos\nBachelor of Information and Technology Programming\njuliuscervantesramos@gmail.com</string>
     <string name="john_alexander_vargas_nbachelor_of_information_and_technology_programming_njobe_vargas_up_phinmaed_com">John Alexander Vargas\nBachelor of Information and Technology Programming\njobe.vargas.up@phinmaed.com</string>
+    <string name="pork_adobo">Pork Adobo</string>
+    <string name="top_picks">Top picks</string>
+    <string name="tinola">Tinola</string>
+    <string name="menudo">Menudo</string>
+    <string name="sinigang">Sinigang</string>
+    <string name="pork_sisig">Pork Sisig</string>
+    <string name="category">Category</string>
+    <string name="adobos">Adobos</string>
+    <string name="sinigangs">Sinigangs</string>
+    <string name="sisigs">Sisigs</string>
+    <string name="foodish_budget_tracker">Foodish Budget Tracker</string>
+    <string name="enter_expense_name">Enter Expense Name</string>
+    <string name="total_expense_php">Total Expense: PHP%1$s</string>
+    <string name="enter_expense_amount_php">Enter Expense Amount(PHP)</string>
+    <string name="add_expense">Add Expense</string>
+    <string name="total_expense_php0_00">Total Expense: PHP0.00</string>
+    <string name="bl_adobosagata">
+         \u2022 3 pounds pork shoulder, cut into 2-inch cubes \n
+         \u2022 1 onion, peeled and sliced thinly \n
+         \u2022 1 head garlic, peeled and minced \n
+         \u2022 ½ teaspoon peppercorns \n
+         \u2022 2 bay leaves \n
+         \u2022  1 cup water \n
+         \u2022 ½ cup vinegar \n
+         \u2022 ¼ cup soy sauce \n
+         \u2022 1 tablespoon canola oil \n
+         \u2022 1 cup coconut milk \n
+         \u2022 2 Thai chili peppers, stemmed and chopped \n
+         \u2022 Salt to taste \n
+    </string>
+    <string name="ins_adobosagata">
+        1.	In a pot over medium heat, combine pork, onions, garlic, peppercorns, bay leaves, water, vinegar and soy sauce. Bring to a boil for about 5 minutes, skimming scum that floats on top. \n
+        2.	Lower heat, cover and simmer for about 30 to 40 minutes or until meat is tender. Drain meat. Reserve the aromatics and 1 cup of the liquid. \n
+        3.	In a wide pan over medium heat, heat oil. Add meat and aromatics and cook, stirring occasionally, until lightly browned. \n
+        4.	Add reserved liquid, coconut milk, and chili peppers. \n
+        5.	Lower heat, cover and continue to cook for about 15 to 20 minutes or until meat is completely cooked and sauce is reduced and thickened. \n
+        6.	Season with salt to taste.  Serve hot. \n \n
+        Reference: https://www.kawalingpinoy.com/adobo-sa-gata/
+    </string>
+    <string name="instructions">Instructions:</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="adobo_sa_gata">Adobo sa Gata</string>
+    <string name="sub_adobosagata">Cooking Time: 45minutes (Good for 4-6 Persons)</string>
 </resources>

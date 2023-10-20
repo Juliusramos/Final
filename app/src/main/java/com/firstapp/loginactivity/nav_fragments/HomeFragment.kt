@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageButton
 import android.widget.Toast
 import com.firstapp.loginactivity.R
 import com.firstapp.loginactivity.bottom_fragments.FavFragment
@@ -15,16 +16,19 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class HomeFragment : Fragment() {
 
+
     @SuppressLint("MissingInflatedId")
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+
         val view = inflater.inflate(R.layout.fragment_home, container, false)
+
 
         val bottomNavigationView = view.findViewById<BottomNavigationView>(R.id.bottomNavigation)
         bottomNavigationView.setOnItemSelectedListener {
-            when(it.itemId) {
+            when (it.itemId) {
                 R.id.bottom_cat -> {
                     replaceFragment(Home2Fragment())
                     activity?.title = "Home"
@@ -34,6 +38,7 @@ class HomeFragment : Fragment() {
                     replaceFragment(FavFragment())
                     activity?.title = "Favorite"
                 }
+
             }
             true
         }
@@ -41,17 +46,20 @@ class HomeFragment : Fragment() {
         activity?.title = "Category"
         bottomNavigationView.selectedItemId = R.id.bottom_cat
 
+
         val addFab = view.findViewById<FloatingActionButton>(R.id.fabAddBtn)
-        addFab.setOnClickListener{
-            Toast.makeText(context, "Add Clicked",Toast.LENGTH_LONG).show()
+        addFab.setOnClickListener {
+            Toast.makeText(context, "Add Clicked", Toast.LENGTH_LONG).show()
         }
 
         return view
     }
+
     private fun replaceFragment(fragment: Fragment) {
         parentFragmentManager
             .beginTransaction()
             .replace(R.id.bottomFragment, fragment)
             .commit()
     }
+
 }
