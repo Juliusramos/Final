@@ -22,7 +22,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="200sp"
-                    android:src="@drawable/ChickenAdobo"
+                    android:src="@drawable/chickenadobo"
                     android:scaleType="centerCrop"
                     android:contentDescription="@string/batchoy_tagalog">
                 </ImageView>
