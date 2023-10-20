@@ -101,5 +101,67 @@
     <string name="instructions">Instructions:</string>
     <string name="ingredients">Ingredients:</string>
     <string name="adobo_sa_gata">Adobo sa Gata</string>
-    <string name="sub_adobosagata">Cooking Time: 45minutes (Good for 4-6 Persons)</string>
+    <string name="sub_adobosagata">Cooking Time: 45 minutes (Good for 4-6 Persons)</string>
+    <string name="batchoy_tagalog">Batchoy Tagalog</string>
+    <string name="bl_batchoy_tagalog">
+        \u2022 1 tablespoon canola oil \n
+        \u2022 1 onion, peeled and sliced thinly \n
+        \u2022 4 cloves garlic, peeled and minced \n
+        \u2022 2 thumb-sized ginger, peeled and minced \n
+        \u2022 ½ pound pork tenderloin, cut into strips \n
+        \u2022 ¼ pound pork heart, about 1 piece, cut into thin strips \n
+        \u2022 2 tablespoons fish sauce \n
+        \u2022 6 cups water \n
+        \u2022 ¼ pound pork liver, cut into thin strips \n
+        \u2022 ¼ pound coagulated blood, drained and cut into cubes \n
+        \u2022 salt and pepper to taste \n
+        \u2022 2 ounces miswa \n
+        \u2022 1 bunch fresh chili leaves, stems trimmed \n
+    </string>
+    <string name="ins_batchoy_tagalog">
+        1.	In a large pot over medium heat, heat oil. Add onions, garlic, and ginger, and cook until softened. \n
+        2.	Add pork and heart. Cook, stirring occasionally, until lightly browned. \n
+        3.	Add fish sauce and cook for about 2 to 3 minutes. \n
+        4.	Add water and bring to a boil, skimming scum that floats on top. \n
+        5.	Lower heat, cover, and continue to cook for about 15 to 20 minutes or until meat is tender. \n
+        6.	Increase heat to high and bring the broth to a rolling boil. \n
+        7.	Add pork liver and cook, without stirring, for about 2 to 3 minutes. Stir and continue to cook for another 2 to 3 minutes. \n
+        8.	Add coagulated blood and cook, without stirring, for about 2 to 3 minutes. Stir and continue to cook for about 8 to 10 minutes. \n
+        9.	Season with salt and pepper to taste. \n
+        10.	Add miswa and continue to cook for 1 to 2 minutes. \n
+        11.	Add chili leaves, pressing down into the broth. Turn off the heat and cover to allow residual steam to cook leaves. Serve hot. \n \n
+        Reference: https://www.kawalingpinoy.com/batchoy-tagalog/
+    </string>
+    <string name="chicken_adobo">Chicken Adobo</string>
+    <string name="bl_chicken_adobo">
+        \u2022 2 lbs chicken \n
+        \u2022 3 pieces dried bay leaves \n
+        \u2022 6 tablespoons soy sauce \n
+        \u2022 4 tablespoons white vinegar \n
+        \u2022 5 cloves garlic \n
+        \u2022 1 1/2 cups water \n
+        \u2022 3 tablespoons cooking oil \n
+        \u2022 1 teaspoon sugar \n
+        \u2022 1/4 teaspoon salt \n
+        \u2022 1 teaspoon whole peppercorn \n
+    </string>
+    <string name="ins_chicken_adobo">
+        1.	Combine chicken, soy sauce, and garlic in a large bowl. Mix well. Marinate the chicken for at least 1 hour. Note: the longer the time, the better \n
+        2.	2 lbs chicken, 6 tablespoons soy sauce \n
+        3.	Heat a cooking pot. Pour cooking oil. \n
+        4.	3 tablespoons cooking oil \n
+        5.	When the oil is hot enough, pan-fry the marinated chicken for 2 minutes per side. \n
+        6.	Pour-in the remaining marinade, including garlic. Add water. Bring to a boil \n
+        7.	1 1/2 cups water \n
+        8.	Add dried bay leaves and whole peppercorn. Simmer for 30 minutes or until the chicken gets tender \n
+        9.	3 pieces dried bay leaves, 1 teaspoon whole peppercorn \n
+        10.	Add vinegar. Stir and cook for 10 minutes. \n
+        11.	4 tablespoons white vinegar \n
+        12.	Put-in the sugar, and salt. Stir and turn the heat off.Serve hot. Share and Enjoy! \n
+        13.	1 teaspoon sugar, 1/4 teaspoon salt \n
+
+        Reference: https://panlasangpinoy.com/filipino-chicken-adobo-recipe/#wprm-recipe-container-47216
+
+    </string>
+    <string name="cooking_time_40_minutes_good_for_4_6_persons">Cooking time: 40 minutes (Good for 4-6 persons)</string>
 </resources>
