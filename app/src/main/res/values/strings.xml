@@ -102,4 +102,15 @@
          \u2022 2 Thai chili peppers, stemmed and chopped \n
          \u2022 Salt to taste \n
     </string>
+    <string name="ins_adobosagata">
+        1.	In a pot over medium heat, combine pork, onions, garlic, peppercorns, bay leaves, water, vinegar and soy sauce. Bring to a boil for about 5 minutes, skimming scum that floats on top. \n
+        2.	Lower heat, cover and simmer for about 30 to 40 minutes or until meat is tender. Drain meat. Reserve the aromatics and 1 cup of the liquid. \n
+        3.	In a wide pan over medium heat, heat oil. Add meat and aromatics and cook, stirring occasionally, until lightly browned. \n
+        4.	Add reserved liquid, coconut milk, and chili peppers. \n
+        5.	Lower heat, cover and continue to cook for about 15 to 20 minutes or until meat is completely cooked and sauce is reduced and thickened. \n
+        6.	Season with salt to taste.  Serve hot. \n \n
+        Reference: https://www.kawalingpinoy.com/adobo-sa-gata/
+    </string>
+    <string name="instructions">Instructions:</string>
+    <string name="adobo_sa_gata">Adobo sa Gata</string>
 </resources>
