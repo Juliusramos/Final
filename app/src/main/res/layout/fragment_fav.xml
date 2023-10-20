@@ -8,11 +8,11 @@
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="531dp"
-        android:gravity="center"
+        android:layout_height="wrap_content"
         android:text="Favorite"
-        android:textColor="@color/orange"
         android:textSize="32dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/orange"/>
 
 </FrameLayout>
