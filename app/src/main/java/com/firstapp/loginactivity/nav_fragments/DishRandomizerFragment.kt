@@ -11,24 +11,17 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.firstapp.loginactivity.R
 
-// TODO: Rename parameter arguments, choose names that match
-//the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
 class DishRandomizerFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
     private lateinit var imageView: ImageView
     private lateinit var rdmButton: Button
+    private lateinit var continueButton: Button
     private lateinit var foodName: TextView
-    val foodImages: IntArray = intArrayOf(
-        R.drawable.adobochicken,
-        R.drawable.adobopork,
-        R.drawable.sisigpork
+    val foodItems: List<Pair<Int, String>> = listOf(
+        R.drawable.adobosagata to "Adobo sa Gata",
+        R.drawable.menudo to "Menudo"
 
     )
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -38,6 +31,7 @@ class DishRandomizerFragment : Fragment() {
 
         imageView = root.findViewById(R.id.imageView)
         rdmButton = root.findViewById(R.id.rdmButton)
+        foodName = root.findViewById(R.id.foodName)
 
         imageSource()
 
@@ -47,11 +41,13 @@ class DishRandomizerFragment : Fragment() {
     private fun imageSource() {
         rdmButton.setOnClickListener {
             val random = Random
-            val randomImageResource = foodImages[random.nextInt(foodImages.size)]
-            imageView.setImageResource(randomImageResource)
+            val randomIndex = random.nextInt(foodItems.size)
+            val randomPair = foodItems[randomIndex]
+
+            imageView.setImageResource(randomPair.first)
+            foodName.text = randomPair.second
         }
     }
-
 }
 
 
