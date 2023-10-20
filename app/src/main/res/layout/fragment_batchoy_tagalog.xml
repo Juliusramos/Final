@@ -5,8 +5,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:fillViewport="true"
-    tools:context=".dishes.AdobosaGata"
-    android:id="@+id/frg_adobosagata">
+    tools:context=".dishes.BatchoyTagalog"
+    android:id="@+id/frg_batchoy_tagalog">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -26,12 +26,12 @@
                     android:scaleType="centerCrop"
                     android:contentDescription="@string/batchoy_tagalog">
                 </ImageView>
-                <!--            <Button-->
-                <!--                android:id="@+id/vb_backhome"-->
-                <!--                android:layout_width="wrap_content"-->
-                <!--                android:layout_height="wrap_content"-->
-                <!--                android:background="@drawable/baseline_keyboard_backspace_24"-->
-                <!--                android:backgroundTint="@color/black"/>-->
+                            <Button
+                                android:id="@+id/vb_backhome"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/baseline_keyboard_backspace_24"
+                                android:backgroundTint="@color/black"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
