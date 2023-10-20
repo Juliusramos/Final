@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="750dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".bottom_fragments.Home2Fragment">
+    tools:context=".bottom_fragments.Home2Fragment"
+    android:id="@+id/frg_home2">
 
     <!-- TODO: Update blank fragment layout -->
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -35,7 +36,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="150dp"
                     android:layout_height="170dp"
-                    android:layout_marginStart="20dp"
+                    android:layout_marginStart="15dp"
                     android:layout_marginTop="50dp"
                     app:cardCornerRadius="25dp">
 
@@ -201,7 +202,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="390dp"
+        android:layout_height="350dp"
         android:layout_marginTop="280dp"
         android:id="@+id/wholeCat">
 
@@ -211,21 +212,22 @@
             android:fillViewport="true">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardAdobo"
-                    android:layout_width="350dp"
+                    android:layout_width="match_parent"
                     android:layout_height="170dp"
                     android:background="@color/orange"
-                    android:layout_marginStart="30dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
                     app:cardCornerRadius="25dp">
 
                     <ImageButton
-                        android:layout_width="350dp"
+                        android:layout_width="match_parent"
                         android:layout_height="137dp"
                         android:src="@drawable/catadobo"
                         android:padding="-50dp"
@@ -247,15 +249,16 @@
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardSingang"
-                    android:layout_width="350dp"
+                    android:layout_width="match_parent"
                     android:layout_height="170dp"
                     android:background="@color/orange"
-                    android:layout_marginStart="30dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
                     app:cardCornerRadius="25dp">
 
                     <ImageButton
-                        android:layout_width="350dp"
+                        android:layout_width="match_parent"
                         android:layout_height="137dp"
                         android:src="@drawable/catsinigang"
                         android:padding="-50dp"
@@ -277,15 +280,16 @@
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardSisig"
-                    android:layout_width="350dp"
+                    android:layout_width="match_parent"
                     android:layout_height="170dp"
                     android:background="@color/orange"
-                    android:layout_marginStart="30dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
                     app:cardCornerRadius="25dp">
 
                     <ImageButton
-                        android:layout_width="350dp"
+                        android:layout_width="match_parent"
                         android:layout_height="137dp"
                         android:src="@drawable/catsisig"
                         android:padding="-50dp"
