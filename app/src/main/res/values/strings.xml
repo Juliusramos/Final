@@ -35,15 +35,16 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-
-
-    <string name="foodish_budget_tracker">Foodish Budget Tracker</string>
-    <string name="enter_expense_name">Enter Expense Name</string>
-    <string name="total_expense_php">Total Expense: PHP%1$s</string>
-    <string name="enter_expense_amount_php">Enter Expense Amount(PHP)</string>
-    <string name="add_expense">Add Expense</string>
-    <string name="total_expense_php0_00">Total Expense: PHP0.00</string>
-
+    <string name="pork_adobo">Pork Adobo</string>
+    <string name="top_picks">Top picks</string>
+    <string name="tinola">Tinola</string>
+    <string name="menudo">Menudo</string>
+    <string name="sinigang">Sinigang</string>
+    <string name="pork_sisig">Pork Sisig</string>
+    <string name="category">Category</string>
+    <string name="adobos">Adobos</string>
+    <string name="sinigangs">Sinigangs</string>
+    <string name="sisigs">Sisigs</string>
     <string name="bl_adobosagata">
          \u2022 3 pounds pork shoulder, cut into 2-inch cubes \n
          \u2022 1 onion, peeled and sliced thinly \n
@@ -68,5 +69,7 @@
         Reference: https://www.kawalingpinoy.com/adobo-sa-gata/
     </string>
     <string name="instructions">Instructions:</string>
+    <string name="ingredients">Ingredients:</string>
     <string name="adobo_sa_gata">Adobo sa Gata</string>
+    <string name="sub_adobosagata">Cooking Time: 45minutes (Good for 4en dash6 Persons)</string>
 </resources>
