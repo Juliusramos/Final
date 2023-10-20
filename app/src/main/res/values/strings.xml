@@ -164,4 +164,31 @@
 
     </string>
     <string name="cooking_time_40_minutes_good_for_4_6_persons">Cooking time: 40 minutes (Good for 4-6 persons)</string>
+    <string name="bl_sinigang">
+        \u2022 1kg Pork Belly Cuts \n
+        \u2022 1 Bunch Spinach (Kang-Kong) \n
+        \u2022 1 Bunch String beans (Sitaw) \n
+        \u2022 2 Pieces Tomato (Kamatis) \n
+        \u2022 Taro (Gabi) \n
+        \u2022 Radish (Labanos) \n
+        \u2022 Banana Chili peppers (Siling Haba) \n
+        \u2022 Onion \n
+        \u2022 1 Sinigang mix \n
+        \u2022 3Tb Fish sauce \n
+    </string>
+    <string name="ins_sinigang">
+        1.	Heat the pot and put-in the cooking oil \n
+        2.	Sauté the onion until its layers separate from each other \n
+        3.	Add the pork belly and cook until outer part turns light brown \n
+        4.	Put-in the fish sauce and mix with the ingredients \n
+        5.	Pour the water and bring to a boil \n
+        6.	Add the taro and tomatoes then simmer for 40 minutes or until pork is tender \n
+        7.	Put-in the sinigang mix and chili \n
+        8.	Add the string beans (and other vegetables if there are any) and simmer for 5 to 8 minutes \n
+        9.	Put-in the spinach, turn off the heat, and cover the pot. Let the spinach cook using the remaining heat in the pot. \n
+        10.	Serve hot. Share and enjoy! \n \n
+
+        Reference: https://panlasangpinoy.com/pork-sinigang-na-baboy-recipe/
+
+    </string>
 </resources>

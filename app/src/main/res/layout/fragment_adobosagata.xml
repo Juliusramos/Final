@@ -26,12 +26,12 @@
                 android:scaleType="centerCrop"
                 android:contentDescription="@string/adobo_sa_gata">
             </ImageView>
-<!--            <Button-->
-<!--                android:id="@+id/vb_backhome"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:background="@drawable/baseline_keyboard_backspace_24"-->
-<!--                android:backgroundTint="@color/black"/>-->
+            <Button
+                android:id="@+id/vb_backhome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/baseline_keyboard_backspace_24"
+                android:backgroundTint="@color/black"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
