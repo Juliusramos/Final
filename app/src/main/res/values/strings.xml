@@ -52,4 +52,19 @@
     <string name="enter_expense_amount_php">Enter Expense Amount(PHP)</string>
     <string name="add_expense">Add Expense</string>
     <string name="total_expense_php0_00">Total Expense: PHP0.00</string>
+
+    <string name="bl_adobosagata">
+         \u2022 3 pounds pork shoulder, cut into 2-inch cubes \n
+         \u2022 1 onion, peeled and sliced thinly \n
+         \u2022 1 head garlic, peeled and minced \n
+         \u2022 ½ teaspoon peppercorns \n
+         \u2022 2 bay leaves \n
+         \u2022  1 cup water \n
+         \u2022 ½ cup vinegar \n
+         \u2022 ¼ cup soy sauce \n
+         \u2022 1 tablespoon canola oil \n
+         \u2022 1 cup coconut milk \n
+         \u2022 2 Thai chili peppers, stemmed and chopped \n
+         \u2022 Salt to taste \n
+    </string>
 </resources>
