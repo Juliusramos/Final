@@ -5,8 +5,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:fillViewport="true"
-    tools:context=".dishes.AdobosaGata">
-
+    tools:context=".dishes.AdobosaGata"
+    android:id="@+id/frg_adobosagata">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -24,7 +24,8 @@
                 android:layout_height="200sp"
                 android:src="@drawable/adobosagata"
                 android:scaleType="centerCrop"
-                android:contentDescription="@string/adobo_sa_gata"/>
+                android:contentDescription="@string/adobo_sa_gata">
+            </ImageView>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
