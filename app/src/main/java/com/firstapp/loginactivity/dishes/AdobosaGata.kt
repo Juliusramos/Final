@@ -1,4 +1,4 @@
-package com.firstapp.loginactivity.bottom_fragments
+package com.firstapp.loginactivity.dishes
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.firstapp.loginactivity.R
 
-class PorkAdobo : Fragment() {
+class AdobosaGata : Fragment() {
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
