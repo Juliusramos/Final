@@ -7,11 +7,12 @@
     android:layout_gravity="center"
     android:orientation="vertical"
     tools:context=".nav_fragments.DishRandomizerFragment">
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"/>
-    <TextView
+  
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"/>
+        <TextView
         android:id="@+id/textView"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -20,7 +21,7 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-    <Button
+        <Button
         android:id="@+id/rdmButton"
         android:layout_width="wrap_content"
         android:layout_gravity="center_horizontal"
