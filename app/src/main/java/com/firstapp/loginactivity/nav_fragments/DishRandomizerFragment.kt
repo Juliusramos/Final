@@ -9,54 +9,81 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.navigation.Navigation
 import com.firstapp.loginactivity.R
+import com.google.android.material.button.MaterialButton
+import androidx.fragment.app.FragmentManager
+import androidx.navigation.NavController
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.fragment.findNavController
+import com.firstapp.loginactivity.dishes.AdobosaGata
+import com.firstapp.loginactivity.dishes.BatchoyTagalog
+import com.firstapp.loginactivity.dishes.ChickenAdobo
+import com.firstapp.loginactivity.dishes.Sinigang
 
-// TODO: Rename parameter arguments, choose names that match
-//the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
 class DishRandomizerFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+
     private lateinit var imageView: ImageView
     private lateinit var rdmButton: Button
-    private lateinit var continueButton: Button
+    private lateinit var continueButton: MaterialButton
     private lateinit var foodName: TextView
+
+
     val foodItems: List<Pair<Int, String>> = listOf(
         R.drawable.adobosagata to "Adobo sa Gata",
-        R.drawable.menudo to "Menudo"
-
+        R.drawable.batchoytagalog to "Batchoy Tagalog",
+        R.drawable.chickenadobo to "Chicken Adobo",
+        R.drawable.porksinigang to "Pork Sinigang"
     )
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View {
+    ): View? {
         // Inflate the layout for this fragment
-        val root = inflater.inflate(R.layout.fragment_dish_randomizer, container, false)
+        val view: View = inflater.inflate(R.layout.fragment_dish_randomizer, container, false)
 
-        imageView = root.findViewById(R.id.imageView)
-        rdmButton = root.findViewById(R.id.rdmButton)
-        foodName = root.findViewById(R.id.foodName)
+        imageView = view.findViewById(R.id.imageView)
+        rdmButton = view.findViewById(R.id.rdmButton)
+        foodName = view.findViewById(R.id.foodName)
+        continueButton = view.findViewById(R.id.continueButton)
 
-        imageSource()
-
-        return root
-    }
-
-    private fun imageSource() {
         rdmButton.setOnClickListener {
+            rdmButton()
+        }
+        continueButton.setOnClickListener {
+            ctnButton()
+        }
+        return view
+    }
+    private fun rdmButton() {
             val random = Random
             val randomIndex = random.nextInt(foodItems.size)
             val randomPair = foodItems[randomIndex]
-
             imageView.setImageResource(randomPair.first)
             foodName.text = randomPair.second
-        }
     }
+
+     private fun ctnButton() {
+         val transaction = parentFragmentManager.beginTransaction()
+
+         when (foodItems.find { it.second == foodName.text }?.first) {
+             R.drawable.adobosagata -> transaction.replace(R.id.fragment_DishRandomizer,  AdobosaGata())
+             R.drawable.batchoytagalog -> transaction.replace(R.id.fragment_DishRandomizer,  BatchoyTagalog())
+             R.drawable.porksinigang -> transaction.replace(R.id.fragment_DishRandomizer,  Sinigang())
+             R.drawable.chickenadobo -> transaction.replace(R.id.fragment_DishRandomizer,  ChickenAdobo())
+                 else ->{}
+         }
+         transaction.addToBackStack(null)
+         transaction.commit()
+     }
 }
+
+
+
+
+
 
 
 

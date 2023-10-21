@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dishRandomizerFragment">
+
+    <fragment
+        android:id="@+id/dishRandomizerFragment"
+        android:name="com.firstapp.loginactivity.nav_fragments.DishRandomizerFragment"
+        android:label="fragment_dish_randomizer"
+        tools:layout="@layout/fragment_dish_randomizer" />
+    <fragment
+        android:id="@+id/adobosaGata"
+        android:name="com.firstapp.loginactivity.dishes.AdobosaGata"
+        android:label="fragment_adobosagata"
+        tools:layout="@layout/fragment_adobosagata" />
+    <fragment
+        android:id="@+id/batchoyTagalog"
+        android:name="com.firstapp.loginactivity.dishes.BatchoyTagalog"
+        android:label="fragment_batchoy_tagalog"
+        tools:layout="@layout/fragment_batchoy_tagalog" />
+    <fragment
+        android:id="@+id/sinigang2"
+        android:name="com.firstapp.loginactivity.dishes.Sinigang"
+        android:label="fragment_sinigang"
+        tools:layout="@layout/fragment_sinigang" />
+    <fragment
+        android:id="@+id/chickenAdobo"
+        android:name="com.firstapp.loginactivity.dishes.ChickenAdobo"
+        android:label="fragment_chicken_adobo"
+        tools:layout="@layout/fragment_chicken_adobo" />
+</navigation>
