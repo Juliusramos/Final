@@ -75,4 +75,9 @@
     <string name="ingredients">Ingredients:</string>
     <string name="adobo_sa_gata">Adobo sa Gata</string>
     <string name="sub_adobosagata">Cooking Time: 45minutes (Good for 4-6 Persons)</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="edit_expense_name">Edit Expense Name</string>
+    <string name="edit_expense_amount_php">Edit Expense Amount (PHP)</string>
+    <string name="expense_text">Expense Text</string>
 </resources>

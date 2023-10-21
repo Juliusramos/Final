@@ -1,0 +1,22 @@
+<!-- edit_expense_dialog.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edited_expense_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_expense_name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edited_expense_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_expense_amount_php"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>
