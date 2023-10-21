@@ -21,10 +21,6 @@
             android:icon="@drawable/baseline_attach_money_24"
             android:title="Budget Tracking"/>
         <item
-            android:id="@+id/nav_fridge"
-            android:icon="@drawable/baseline_door_sliding_24"
-            android:title="Fridge"/>
-        <item
             android:id="@+id/nav_dish_randomizer"
             android:icon="@drawable/baseline_rotate_90_degrees_cw_24"
             android:title="Dish Randomizer"/>

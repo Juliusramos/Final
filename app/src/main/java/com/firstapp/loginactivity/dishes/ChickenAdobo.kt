@@ -10,12 +10,13 @@ import android.widget.Button
 import com.firstapp.loginactivity.R
 import com.firstapp.loginactivity.bottom_fragments.Home2Fragment
 
-class AdobosaGata : Fragment() {
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val view = inflater.inflate(R.layout.fragment_adobosagata, container, false)
+class ChickenAdobo : Fragment() {
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val view = inflater.inflate(R.layout.fragment_chicken_adobo, container, false)
         val vbadobo = view.findViewById<Button>(R.id.vb_backhome)
-        Log.e("mytag","open adobosagata")
-
         vbadobo.setOnClickListener{
             Log.e("mytag","vbadobo click")
             val newFragment = Home2Fragment()

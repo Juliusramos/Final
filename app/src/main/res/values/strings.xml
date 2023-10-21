@@ -80,4 +80,271 @@
     <string name="edit_expense_name">Edit Expense Name</string>
     <string name="edit_expense_amount_php">Edit Expense Amount (PHP)</string>
     <string name="expense_text">Expense Text</string>
+    <string name="batchoy_tagalog">Batchoy Tagalog</string>
+    <string name="bl_batchoy_tagalog">
+        \u2022 1 tablespoon canola oil \n
+        \u2022 1 onion, peeled and sliced thinly \n
+        \u2022 4 cloves garlic, peeled and minced \n
+        \u2022 2 thumb-sized ginger, peeled and minced \n
+        \u2022 ½ pound pork tenderloin, cut into strips \n
+        \u2022 ¼ pound pork heart, about 1 piece, cut into thin strips \n
+        \u2022 2 tablespoons fish sauce \n
+        \u2022 6 cups water \n
+        \u2022 ¼ pound pork liver, cut into thin strips \n
+        \u2022 ¼ pound coagulated blood, drained and cut into cubes \n
+        \u2022 salt and pepper to taste \n
+        \u2022 2 ounces miswa \n
+        \u2022 1 bunch fresh chili leaves, stems trimmed \n
+    </string>
+    <string name="ins_batchoy_tagalog">
+        1.	In a large pot over medium heat, heat oil. Add onions, garlic, and ginger, and cook until softened. \n
+        2.	Add pork and heart. Cook, stirring occasionally, until lightly browned. \n
+        3.	Add fish sauce and cook for about 2 to 3 minutes. \n
+        4.	Add water and bring to a boil, skimming scum that floats on top. \n
+        5.	Lower heat, cover, and continue to cook for about 15 to 20 minutes or until meat is tender. \n
+        6.	Increase heat to high and bring the broth to a rolling boil. \n
+        7.	Add pork liver and cook, without stirring, for about 2 to 3 minutes. Stir and continue to cook for another 2 to 3 minutes. \n
+        8.	Add coagulated blood and cook, without stirring, for about 2 to 3 minutes. Stir and continue to cook for about 8 to 10 minutes. \n
+        9.	Season with salt and pepper to taste. \n
+        10.	Add miswa and continue to cook for 1 to 2 minutes. \n
+        11.	Add chili leaves, pressing down into the broth. Turn off the heat and cover to allow residual steam to cook leaves. Serve hot. \n \n
+        Reference: https://www.kawalingpinoy.com/batchoy-tagalog/
+    </string>
+    <string name="chicken_adobo">Chicken Adobo</string>
+    <string name="bl_chicken_adobo">
+        \u2022 2 lbs chicken \n
+        \u2022 3 pieces dried bay leaves \n
+        \u2022 6 tablespoons soy sauce \n
+        \u2022 4 tablespoons white vinegar \n
+        \u2022 5 cloves garlic \n
+        \u2022 1 1/2 cups water \n
+        \u2022 3 tablespoons cooking oil \n
+        \u2022 1 teaspoon sugar \n
+        \u2022 1/4 teaspoon salt \n
+        \u2022 1 teaspoon whole peppercorn \n
+    </string>
+    <string name="ins_chicken_adobo">
+        1.	Combine chicken, soy sauce, and garlic in a large bowl. Mix well. Marinate the chicken for at least 1 hour. Note: the longer the time, the better \n
+        2.	2 lbs chicken, 6 tablespoons soy sauce \n
+        3.	Heat a cooking pot. Pour cooking oil. \n
+        4.	3 tablespoons cooking oil \n
+        5.	When the oil is hot enough, pan-fry the marinated chicken for 2 minutes per side. \n
+        6.	Pour-in the remaining marinade, including garlic. Add water. Bring to a boil \n
+        7.	1 1/2 cups water \n
+        8.	Add dried bay leaves and whole peppercorn. Simmer for 30 minutes or until the chicken gets tender \n
+        9.	3 pieces dried bay leaves, 1 teaspoon whole peppercorn \n
+        10.	Add vinegar. Stir and cook for 10 minutes. \n
+        11.	4 tablespoons white vinegar \n
+        12.	Put-in the sugar, and salt. Stir and turn the heat off.Serve hot. Share and Enjoy! \n
+        13.	1 teaspoon sugar, 1/4 teaspoon salt \n \n
+
+        Reference: https://panlasangpinoy.com/filipino-chicken-adobo-recipe/#wprm-recipe-container-47216
+
+    </string>
+    <string name="sub_cook30_good24">Cooking time: 30 minutes (Good for 2-4 persons)</string>
+    <string name="sub_cook30_good46">Cooking time: 30 minutes (Good for 4-6 persons)</string>
+    <string name="sub_cook40_good24">Cooking time: 40 minutes (Good for 2-4 persons)</string>
+    <string name="sub_cook40_good46">Cooking time: 40 minutes (Good for 4-6 persons)</string>
+    <string name="sub_cook50_good24">Cooking time: 50 minutes (Good for 2-4 persons)</string>
+    <string name="sub_cook50_good46">Cooking time: 50 minutes (Good for 4-6 persons)</string>
+    <string name="sub_cook60_good24">Cooking time: 60 minutes (Good for 2-4 persons)</string>
+    <string name="sub_cook60_good46">Cooking time: 60 minutes (Good for 4-6 persons)</string>
+    <string name="bl_sinigang">
+        \u2022 1kg Pork Belly Cuts \n
+        \u2022 1 Bunch Spinach (Kang-Kong) \n
+        \u2022 1 Bunch String beans (Sitaw) \n
+        \u2022 2 Pieces Tomato (Kamatis) \n
+        \u2022 Taro (Gabi) \n
+        \u2022 Radish (Labanos) \n
+        \u2022 Banana Chili peppers (Siling Haba) \n
+        \u2022 Onion \n
+        \u2022 1 Sinigang mix \n
+        \u2022 3Tb Fish sauce \n
+    </string>
+    <string name="ins_sinigang">
+        1.	Heat the pot and put-in the cooking oil \n
+        2.	Sauté the onion until its layers separate from each other \n
+        3.	Add the pork belly and cook until outer part turns light brown \n
+        4.	Put-in the fish sauce and mix with the ingredients \n
+        5.	Pour the water and bring to a boil \n
+        6.	Add the taro and tomatoes then simmer for 40 minutes or until pork is tender \n
+        7.	Put-in the sinigang mix and chili \n
+        8.	Add the string beans (and other vegetables if there are any) and simmer for 5 to 8 minutes \n
+        9.	Put-in the spinach, turn off the heat, and cover the pot. Let the spinach cook using the remaining heat in the pot. \n
+        10.	Serve hot. Share and enjoy! \n \n
+
+        Reference: https://panlasangpinoy.com/pork-sinigang-na-baboy-recipe/
+    </string>
+    <string name="bok_choy_adobo">Bok Choy Adobo</string>
+    <string name="bl_bok_choy_adobo">
+        \u2022 1 lb. bok choy chopped    \n
+        \u2022 1 head garlic crushed       \n
+        \u2022 3 tablespoons soy sauce            \n
+        \u2022 2 tablespoons white vinegar         \n
+        \u2022 1/2 teaspoon granulated white sugar      \n
+        \u2022 3 pieces dried bay leaves             \n
+        \u2022 salt and pepper to taste               \n
+        \u2022 2 tablespoons cooking oil             \n
+</string>
+    <string name="ins_bok_choy_adobo">
+        1.	Heat the cooking oil in a frying pan.                                                                                             \n
+        2.	Once the oil becomes hot, put-in the crushed garlic and dried bay leaves. Cook until the garlic turns light to medium brown.      \n
+        3.	Remove half of the garlic and then set them aside.                                                                                \n
+        4.	Add the chopped bok choy. Stir and cook for 3 minutes.                                                                            \n
+        5.	Pour-in the soy sauce and vinagar. Let boil. Stir, cover, and simmer for 5 to 8 minutes.                                          \n
+        6.	Add salt (if needed), pepper, and sugar.Stir and then cook for another minute more.                                               \n
+        7.	Tranfer to a serving plate. Top with fried garlic.                                                                                \n
+        8.	Serve. Share and enjoy! \n \n
+        Reference: https://panlasangpinoy.com/bok-choy-adobo-pechay-recipe/#wprm-recipe-container-49523
+    </string>
+    <string name="adobo_steak">Adobo Steak</string>
+    <string name="bl_adobo_steak">
+        \u2022 1 1/2 lbs beef tenderloin             \n
+        \u2022 1/3 cup soy sauce                     \n
+        \u2022 4 tablespoons red wine vinegar        \n
+        \u2022 1/2 cup water                         \n
+        \u2022 2 tablespoons honey                   \n
+        \u2022 1 green bell pepper sliced lengthwise \n
+        \u2022 1 medium onion sliced                 \n
+        \u2022 4 tablespoons extra virgin olive oil  \n
+        \u2022 salt and pepper to taste              \n
+
+    </string>
+    <string name="ins_adobo_steak">
+        1.	Heat a cooking pot then pour-in 2 tablespoons of olive oil.                                                                 \n
+        2.	Put-in the beef and cook for 1 to 2 minutes.                                                                                \n
+        3.	Pour-in soy sauce and water then allow to boil. Simmer for 15 to 20 minutes. Note: Add more water if the mixture dries-up.  \n
+        4.	Put-in the honey and red wine vinegar and allow to boil. Stir and simmer for 10 minutes. Turn-off heat and set aside.       \n
+        5.	Heat a wok and pour-in remaining olive oil.                                                                                 \n
+        6.	Put-in bell pepper and onion then cook for 3 minutes.                                                                       \n
+        7.	Add the cooked beef tenderloin, salt, and pepper then stir. Cook for a minute more.                                         \n
+        8.	Transfer to a serving plate then serve. Share and enjoy! \n\n
+        Reference: https://panlasangpinoy.com/how-to-cook-adobo-steak/#wprm-recipe-container-50212
+    </string>
+    <string name="crispy_shrimp_adobo">Crispy Shrimp Adobo</string>
+    <string name="bl_crispy_shrimp_adobo">
+        \u2022 1 lb. shrimp with head intact    \n
+        \u2022 1/4 cup white wine vinegar       \n
+        \u2022 2 teaspoons minced garlic        \n
+        \u2022 2 tablespoons dry sherry or rum  \n
+        \u2022 1/4 cup low sodium soy sauce     \n
+        \u2022 1/2 teaspoon ground black pepper \n
+        \u2022 1/2 cup cornstarch               \n
+        \u2022 1/2 cup all-purpose flour        \n
+        \u2022 1 cup cooking oil                \n
+        \u2022 5 pieces dried bay leaves        \n
+        \u2022 1/2 tablespoon whole peppercorn  \n
+    </string>
+    <string name="ins_crispy_shrimp_adobo">
+        1.	Combine vinegar, rum, minced garlic, and soy sauce, and ground black pepper in a large bowl. Mix well.                                   \n
+        2.	Combine AP flour and cornstarch. Mix well and then set aside.                                                                            \n
+        3.	Put the shrimp in the same bowl. Marinade for at least 30 minutes.                                                                       \n
+        4.	Heat the cooking oil in a deep cooking pot.                                                                                              \n
+        5.	Add the dried bay leaves and whole peppercorn in the hot oil.                                                                            \n
+        6.	Remove the shrimp from the marinade and then dredge in the flour and cornstarch mixture.                                                 \n
+        7.	Deep fry the shrimp for about 5 to 7 minutes or until the texture becomes crisp.                                                         \n
+        8.	Arrange in a serving plate lined with paper towels to absorb excess oil.                                                                 \n
+        9.	Serve with adobo dipping sauce (which is 2 parts vinegar and 1 part soy sauce with whole peppercorn and minced garlic). Share and enjoy! \n \n
+        Reference: https://panlasangpinoy.com/crispy-shrimp-adobo-recipe/#wprm-recipe-container-49878
+    </string>
+    <string name="kare_kare">Kare-Kare</string>
+    <string name="bl_kare_kare">
+        \u2022 1kg oxtail cut in 2 inch slices you an also use tripe or beef slices \n
+        \u2022 1 piece small banana flower bud sliced                               \n
+        \u2022 1 bundle pechay or bok choy                                          \n
+        \u2022 1 bundle string beans cut into 2 inch slices                         \n
+        \u2022 4 pieces eggplants sliced                                            \n
+        \u2022 150 g ground peanuts                                                 \n
+        \u2022 130 g peanut butter                                                  \n
+        \u2022 62.5 g shrimp paste                                                  \n
+        \u2022 963.89 g water about 1 Liter                                         \n
+        \u2022 118.29 g annatto seeds soaked in a cup of water                      \n
+        \u2022 92.5 g toasted ground rice                                           \n
+        \u2022 1 tbsp garlic minced                                                 \n
+        \u2022 1 piece onion chopped                                                \n
+        \u2022 salt and pepper                                                      \n
+    </string>
+    <string name="ins_kare_kare">
+        1.	In a large pot, bring the water to a boil                                                                                                        \n
+        2.	Put in the oxtail followed by the onions and simmer for 2.5 to 3 hrs or until tender (35 minutes if using a pressure cooker)                     \n
+        3.	Once the meat is tender, add the ground peanuts, peanut butter, and coloring (water from the annatto seed mixture) and simmer for 5 to 7 minutes \n
+        4.	Add the toasted ground rice and simmer for 5 minutes                                                                                             \n
+        5.	On a separate pan, saute the garlic then add the banana flower, eggplant, and string beans and cook for 5 minutes                                \n
+        6.	Transfer the cooked vegetables to the large pot (where the rest of the ingredients are)                                                          \n
+        7.	Add salt and pepper to taste                                                                                                                     \n
+        8.	Serve hot with shrimp paste. Enjoy!                                                                                                              \n \n
+        Reference: https://www.hungryhuy.com/kare-kare/
+    </string>
+    <string name="bl_pork_sisig">
+        \u2022 ½ kilo Pork Face ( boiled and grilled) \n
+        \u2022 1 pc red chili (labuyo)                \n
+        \u2022 1 pc green chili                       \n
+        \u2022 2 pcs calamansi                        \n
+        \u2022 1 tbsp mayonnaise                      \n
+        \u2022 1 pc red onion ( dice)                 \n
+        \u2022 1 small white onion                    \n
+        \u2022 1 tbsp margarine or butter             \n
+        \u2022 2 tbsp knorr seasoning liquid          \n
+        \u2022 1 pc egg                               \n
+        \u2022 1 pc red bell pepper ( optional)       \n
+        \u2022 Water for boiling                      \n
+        \u2022 Charcoal for grilling                  \n
+    </string>
+    <string name="ins_pork_sisig">
+        1.	Boiled the pork with salt, pepper and garlic until soft.                                                                       \n
+        2.	After boiling , grilled it and cut into small dice.                                                                            \n
+        3.	Heat the sizzling plate , add butter and saute the red bell pepper, white onion until the fragrances of bell pepper comes out. \n
+        4.	Add the grilled diced pork and turn the heat into low.                                                                         \n
+        5.	Season with knorr seasoning and add the chillies, top with red onion and egg.                                                  \n
+        6.	Garnish with mayonnaise and calamansi.                                                                                         \n
+        7.	Serve and Enjoy!                                                                                                               \n \n
+    </string>
+    <string name="sisig_bangus">Sisig Bangus</string>
+    <string name="bl_sisig_bangus">
+        \u2022 1 large bangus (milkfish), about 2 to 3 cups fish meat \n
+        \u2022 1/2 cup red onion, peeled and diced                    \n
+        \u2022 1/2 cup red pepper, seeded and diced                   \n
+        \u2022 1/2 cup green pepper, seeded and diced                 \n
+        \u2022 juice from 2 lemons (about 2 to 3 tbsps)               \n
+        \u2022 2 to 3 thai peppers, minced                            \n
+        \u2022 frying oil                                             \n
+        \u2022 salt and pepper to taste                               \n
+    </string>
+    <string name="ins_sisig_bangus">
+        1.	In a pan, heat oil.                                                              \n
+        2.	Slide in fish and fry until crisp and golden brown.                              \n
+        3.	Remove from pan and drain excess oil on paper towels.                            \n
+        4.	When cool to touch, flake fish to small pieces, discarding bones, head and tail. \n
+        5.	In a bowl, combine fish meat, onions and peppers.                                \n
+        6.	Season with salt and pepper.                                                     \n
+        7.	Toss with lemon juice.                                                           \n \n
+        Reference: https://www.panlasangpinoyrecipes.com/fish-sisig/
+    </string>
+    <string name="sisig_kapampangan">Sisig Kapampangan</string>
+    <string name="bl_sisig_kapampangan">
+        \u2022 1 ½ kg pork head (ear, face, tongue and cheek) \n
+        \u2022 ¼ cup liver, broiled and cubed                 \n
+        \u2022 1 T minced garlic                              \n
+        \u2022 1 pc chopped onion                             \n
+        \u2022 2 pcs bay leaves                               \n
+        \u2022 ½ cup vinegar                                  \n
+        \u2022 1 T chopped red bell pepper                    \n
+        \u2022 ½ T freshly ground black pepper                \n
+        \u2022 1 cup beef or pork stock                       \n
+        \u2022 2 pcs calamansi                                \n
+        \u2022 3 pcs siling labuyo, chopped finely            \n
+        \u2022 Salt or fish sauce                             \n
+    </string>
+    <string name="ins_sisig_kapampangan">
+        1.	Grill the pork (ear, tongue, cheeks and face), while removing remaining facial hair \n
+        2.	Boil the pork’s head after grilling until it is tender                              \n
+        3.	Debone and chop finely                                                              \n
+        4.	Sauté garlic, onion and bell pepper                                                 \n
+        5.	Add chopped pork and liver                                                          \n
+        6.	Season with vinegar, salt and pepper                                                \n
+        7.	Pour stock and bay leaves                                                           \n
+        8.	Let it boil, then let it simmer until sauce thickens                                \n
+        9.	Season to taste                                                                     \n \n
+        Reference: https://www.panlasangpinoyrecipes.com/sisig-kapampangan-recipe/              \n
+    </string>
 </resources>
