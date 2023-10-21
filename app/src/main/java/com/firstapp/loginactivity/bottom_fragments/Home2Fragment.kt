@@ -1,5 +1,6 @@
 package com.firstapp.loginactivity.bottom_fragments
 
+import android.content.Context
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -9,34 +10,38 @@ import android.view.ViewGroup
 import android.widget.ImageButton
 import com.firstapp.loginactivity.R
 import com.firstapp.loginactivity.dishes.AdobosaGata
-import com.firstapp.loginactivity.dishes.Tinola
 
 
 class Home2Fragment : Fragment() {
+
+    private var count = 1
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_home2, container, false)
-        val btadobo = view.findViewById<ImageButton>(R.id.Adobo)
-        val bttinola = view.findViewById<ImageButton>(R.id.tinola)
+        Log.e("mytag", "open home2 fragment")
 
-        Log.e("mytag","open home2 fragment")
-
-        btadobo.setOnClickListener{
-            Log.e("mytag","click bt adobo")
-            val newFragment = AdobosaGata()
-            val transaction = parentFragmentManager.beginTransaction()
-            transaction.replace(R.id.frg_home2, newFragment)
-            transaction.commit()
+        childFragmentManager.addOnBackStackChangedListener {
+            for (i in 0 until childFragmentManager.backStackEntryCount) {
+                Log.d("Fragment", childFragmentManager.getBackStackEntryAt(i).name.toString())
+            }
+            Log.d("Fragment", "---------------")
         }
-        bttinola.setOnClickListener{
-            val newFragment = Tinola()
-            val transaction = parentFragmentManager.beginTransaction()
-            transaction.replace(R.id.frg_home2, newFragment)
-            transaction.commit()
+
+        val btadobo = view.findViewById<ImageButton>(R.id.Adobo)
+        btadobo.setOnClickListener {
+            onClickPorkAdobo()
         }
         // Inflate the layout for this fragment
         return view
+    }
+
+    private fun onClickPorkAdobo() {
+        val fragmentTransaction = childFragmentManager.beginTransaction()
+        fragmentTransaction.add(R.id.frg_home2, AdobosaGata())
+        fragmentTransaction.addToBackStack("Adobo - ${count++}")
+        fragmentTransaction.commit()
     }
 }
