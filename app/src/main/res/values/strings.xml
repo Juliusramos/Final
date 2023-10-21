@@ -270,5 +270,76 @@
         8.	Serve hot with shrimp paste. Enjoy!                                                                                                              \n \n
         Reference: https://www.hungryhuy.com/kare-kare/
     </string>
-
+    <string name="bl_pork_sisig">
+        \u2022 ½ kilo Pork Face ( boiled and grilled) \n
+        \u2022 1 pc red chili (labuyo)                \n
+        \u2022 1 pc green chili                       \n
+        \u2022 2 pcs calamansi                        \n
+        \u2022 1 tbsp mayonnaise                      \n
+        \u2022 1 pc red onion ( dice)                 \n
+        \u2022 1 small white onion                    \n
+        \u2022 1 tbsp margarine or butter             \n
+        \u2022 2 tbsp knorr seasoning liquid          \n
+        \u2022 1 pc egg                               \n
+        \u2022 1 pc red bell pepper ( optional)       \n
+        \u2022 Water for boiling                      \n
+        \u2022 Charcoal for grilling                  \n
+    </string>
+    <string name="ins_pork_sisig">
+        1.	Boiled the pork with salt, pepper and garlic until soft.                                                                       \n
+        2.	After boiling , grilled it and cut into small dice.                                                                            \n
+        3.	Heat the sizzling plate , add butter and saute the red bell pepper, white onion until the fragrances of bell pepper comes out. \n
+        4.	Add the grilled diced pork and turn the heat into low.                                                                         \n
+        5.	Season with knorr seasoning and add the chillies, top with red onion and egg.                                                  \n
+        6.	Garnish with mayonnaise and calamansi.                                                                                         \n
+        7.	Serve and Enjoy!                                                                                                               \n \n
+    </string>
+    <string name="sisig_bangus">Sisig Bangus</string>
+    <string name="bl_sisig_bangus">
+        \u2022 1 large bangus (milkfish), about 2 to 3 cups fish meat \n
+        \u2022 1/2 cup red onion, peeled and diced                    \n
+        \u2022 1/2 cup red pepper, seeded and diced                   \n
+        \u2022 1/2 cup green pepper, seeded and diced                 \n
+        \u2022 juice from 2 lemons (about 2 to 3 tbsps)               \n
+        \u2022 2 to 3 thai peppers, minced                            \n
+        \u2022 frying oil                                             \n
+        \u2022 salt and pepper to taste                               \n
+    </string>
+    <string name="ins_sisig_bangus">
+        1.	In a pan, heat oil.                                                              \n
+        2.	Slide in fish and fry until crisp and golden brown.                              \n
+        3.	Remove from pan and drain excess oil on paper towels.                            \n
+        4.	When cool to touch, flake fish to small pieces, discarding bones, head and tail. \n
+        5.	In a bowl, combine fish meat, onions and peppers.                                \n
+        6.	Season with salt and pepper.                                                     \n
+        7.	Toss with lemon juice.                                                           \n \n
+        Reference: https://www.panlasangpinoyrecipes.com/fish-sisig/
+    </string>
+    <string name="sisig_kapampangan">Sisig Kapampangan</string>
+    <string name="bl_sisig_kapampangan">
+        \u2022 1 ½ kg pork head (ear, face, tongue and cheek) \n
+        \u2022 ¼ cup liver, broiled and cubed                 \n
+        \u2022 1 T minced garlic                              \n
+        \u2022 1 pc chopped onion                             \n
+        \u2022 2 pcs bay leaves                               \n
+        \u2022 ½ cup vinegar                                  \n
+        \u2022 1 T chopped red bell pepper                    \n
+        \u2022 ½ T freshly ground black pepper                \n
+        \u2022 1 cup beef or pork stock                       \n
+        \u2022 2 pcs calamansi                                \n
+        \u2022 3 pcs siling labuyo, chopped finely            \n
+        \u2022 Salt or fish sauce                             \n
+    </string>
+    <string name="ins_sisig_kapampangan">
+        1.	Grill the pork (ear, tongue, cheeks and face), while removing remaining facial hair \n
+        2.	Boil the pork’s head after grilling until it is tender                              \n
+        3.	Debone and chop finely                                                              \n
+        4.	Sauté garlic, onion and bell pepper                                                 \n
+        5.	Add chopped pork and liver                                                          \n
+        6.	Season with vinegar, salt and pepper                                                \n
+        7.	Pour stock and bay leaves                                                           \n
+        8.	Let it boil, then let it simmer until sauce thickens                                \n
+        9.	Season to taste                                                                     \n \n
+        Reference: https://www.panlasangpinoyrecipes.com/sisig-kapampangan-recipe/              \n
+    </string>
 </resources>
