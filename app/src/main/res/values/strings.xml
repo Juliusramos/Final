@@ -342,4 +342,27 @@
         9.	Season to taste                                                                     \n \n
         Reference: https://www.panlasangpinoyrecipes.com/sisig-kapampangan-recipe/              \n
     </string>
+    <string name="laing">Laing</string>
+    <string name="bl_laing">
+        \u2022 4 ounces taro leaves dried                                                   \n
+        \u2022 1/2 lb. pork cut into thin strips                                            \n
+        \u2022 1/2 lb. shrimp with head (optional)                                          \n
+        \u2022 1/2 cup shrimp paste                                                         \n
+        \u2022 1 onion chopped                                                              \n
+        \u2022 6 Thai chili pepper                                                          \n
+        \u2022 1/4 cup ginger cut into strips                                               \n
+        \u2022 1 tbsp garlic minced                                                         \n
+        \u2022 4 cups coconut milk                                                          \n
+        \u2022 fish sauce and ground black pepper to taste                                  \n
+    </string>
+    <string name="ins_laing">
+        1.	In a large pan, pour-in the coconut milk and bring to a boil                              \n
+        2.	Add the garlic, onion, and ginger. Cook for 10 minutes                                    \n
+        3.	Add the pork meat and shrimp paste and stir continuously                                  \n
+        4.	Put in the Thai chili and simmer for another 10 minutes                                   \n
+        5.	Add the fish sauce and dried Taro leaves and simmer for 40 to 60. Add water if needed.    \n
+        6.	Put the shrimps in and cook for 5 minutes. Season with ground black pepper.               \n
+        7.	Serve hot. Enjoy                                                                        \n  \n
+        Reference: https://www.panlasangpinoyrecipes.com/sisig-kapampangan-recipe/                    \n
+    </string>
 </resources>
