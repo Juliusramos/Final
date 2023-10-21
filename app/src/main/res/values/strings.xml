@@ -131,12 +131,19 @@
         10.	Add vinegar. Stir and cook for 10 minutes. \n
         11.	4 tablespoons white vinegar \n
         12.	Put-in the sugar, and salt. Stir and turn the heat off.Serve hot. Share and Enjoy! \n
-        13.	1 teaspoon sugar, 1/4 teaspoon salt \n
+        13.	1 teaspoon sugar, 1/4 teaspoon salt \n \n
 
         Reference: https://panlasangpinoy.com/filipino-chicken-adobo-recipe/#wprm-recipe-container-47216
 
     </string>
-    <string name="cooking_time_40_minutes_good_for_4_6_persons">Cooking time: 40 minutes (Good for 4-6 persons)</string>
+    <string name="sub_cook30_good24">Cooking time: 30 minutes (Good for 2-4 persons)</string>
+    <string name="sub_cook30_good46">Cooking time: 30 minutes (Good for 4-6 persons)</string>
+    <string name="sub_cook40_good24">Cooking time: 40 minutes (Good for 2-4 persons)</string>
+    <string name="sub_cook40_good46">Cooking time: 40 minutes (Good for 4-6 persons)</string>
+    <string name="sub_cook50_good24">Cooking time: 50 minutes (Good for 2-4 persons)</string>
+    <string name="sub_cook50_good46">Cooking time: 50 minutes (Good for 4-6 persons)</string>
+    <string name="sub_cook60_good24">Cooking time: 60 minutes (Good for 2-4 persons)</string>
+    <string name="sub_cook60_good46">Cooking time: 60 minutes (Good for 4-6 persons)</string>
     <string name="bl_sinigang">
         \u2022 1kg Pork Belly Cuts \n
         \u2022 1 Bunch Spinach (Kang-Kong) \n
@@ -162,6 +169,106 @@
         10.	Serve hot. Share and enjoy! \n \n
 
         Reference: https://panlasangpinoy.com/pork-sinigang-na-baboy-recipe/
+    </string>
+    <string name="bok_choy_adobo">Bok Choy Adobo</string>
+    <string name="bl_bok_choy_adobo">
+        \u2022 1 lb. bok choy chopped    \n
+        \u2022 1 head garlic crushed       \n
+        \u2022 3 tablespoons soy sauce            \n
+        \u2022 2 tablespoons white vinegar         \n
+        \u2022 1/2 teaspoon granulated white sugar      \n
+        \u2022 3 pieces dried bay leaves             \n
+        \u2022 salt and pepper to taste               \n
+        \u2022 2 tablespoons cooking oil             \n
+</string>
+    <string name="ins_bok_choy_adobo">
+        1.	Heat the cooking oil in a frying pan.                                                                                             \n
+        2.	Once the oil becomes hot, put-in the crushed garlic and dried bay leaves. Cook until the garlic turns light to medium brown.      \n
+        3.	Remove half of the garlic and then set them aside.                                                                                \n
+        4.	Add the chopped bok choy. Stir and cook for 3 minutes.                                                                            \n
+        5.	Pour-in the soy sauce and vinagar. Let boil. Stir, cover, and simmer for 5 to 8 minutes.                                          \n
+        6.	Add salt (if needed), pepper, and sugar.Stir and then cook for another minute more.                                               \n
+        7.	Tranfer to a serving plate. Top with fried garlic.                                                                                \n
+        8.	Serve. Share and enjoy! \n \n
+        Reference: https://panlasangpinoy.com/bok-choy-adobo-pechay-recipe/#wprm-recipe-container-49523
+    </string>
+    <string name="adobo_steak">Adobo Steak</string>
+    <string name="bl_adobo_steak">
+        \u2022 1 1/2 lbs beef tenderloin             \n
+        \u2022 1/3 cup soy sauce                     \n
+        \u2022 4 tablespoons red wine vinegar        \n
+        \u2022 1/2 cup water                         \n
+        \u2022 2 tablespoons honey                   \n
+        \u2022 1 green bell pepper sliced lengthwise \n
+        \u2022 1 medium onion sliced                 \n
+        \u2022 4 tablespoons extra virgin olive oil  \n
+        \u2022 salt and pepper to taste              \n
 
     </string>
+    <string name="ins_adobo_steak">
+        1.	Heat a cooking pot then pour-in 2 tablespoons of olive oil.                                                                 \n
+        2.	Put-in the beef and cook for 1 to 2 minutes.                                                                                \n
+        3.	Pour-in soy sauce and water then allow to boil. Simmer for 15 to 20 minutes. Note: Add more water if the mixture dries-up.  \n
+        4.	Put-in the honey and red wine vinegar and allow to boil. Stir and simmer for 10 minutes. Turn-off heat and set aside.       \n
+        5.	Heat a wok and pour-in remaining olive oil.                                                                                 \n
+        6.	Put-in bell pepper and onion then cook for 3 minutes.                                                                       \n
+        7.	Add the cooked beef tenderloin, salt, and pepper then stir. Cook for a minute more.                                         \n
+        8.	Transfer to a serving plate then serve. Share and enjoy! \n\n
+        Reference: https://panlasangpinoy.com/how-to-cook-adobo-steak/#wprm-recipe-container-50212
+    </string>
+    <string name="crispy_shrimp_adobo">Crispy Shrimp Adobo</string>
+    <string name="bl_crispy_shrimp_adobo">
+        \u2022 1 lb. shrimp with head intact    \n
+        \u2022 1/4 cup white wine vinegar       \n
+        \u2022 2 teaspoons minced garlic        \n
+        \u2022 2 tablespoons dry sherry or rum  \n
+        \u2022 1/4 cup low sodium soy sauce     \n
+        \u2022 1/2 teaspoon ground black pepper \n
+        \u2022 1/2 cup cornstarch               \n
+        \u2022 1/2 cup all-purpose flour        \n
+        \u2022 1 cup cooking oil                \n
+        \u2022 5 pieces dried bay leaves        \n
+        \u2022 1/2 tablespoon whole peppercorn  \n
+    </string>
+    <string name="ins_crispy_shrimp_adobo">
+        1.	Combine vinegar, rum, minced garlic, and soy sauce, and ground black pepper in a large bowl. Mix well.                                   \n
+        2.	Combine AP flour and cornstarch. Mix well and then set aside.                                                                            \n
+        3.	Put the shrimp in the same bowl. Marinade for at least 30 minutes.                                                                       \n
+        4.	Heat the cooking oil in a deep cooking pot.                                                                                              \n
+        5.	Add the dried bay leaves and whole peppercorn in the hot oil.                                                                            \n
+        6.	Remove the shrimp from the marinade and then dredge in the flour and cornstarch mixture.                                                 \n
+        7.	Deep fry the shrimp for about 5 to 7 minutes or until the texture becomes crisp.                                                         \n
+        8.	Arrange in a serving plate lined with paper towels to absorb excess oil.                                                                 \n
+        9.	Serve with adobo dipping sauce (which is 2 parts vinegar and 1 part soy sauce with whole peppercorn and minced garlic). Share and enjoy! \n \n
+        Reference: https://panlasangpinoy.com/crispy-shrimp-adobo-recipe/#wprm-recipe-container-49878
+    </string>
+    <string name="kare_kare">Kare-Kare</string>
+    <string name="bl_kare_kare">
+        \u2022 1kg oxtail cut in 2 inch slices you an also use tripe or beef slices \n
+        \u2022 1 piece small banana flower bud sliced                               \n
+        \u2022 1 bundle pechay or bok choy                                          \n
+        \u2022 1 bundle string beans cut into 2 inch slices                         \n
+        \u2022 4 pieces eggplants sliced                                            \n
+        \u2022 150 g ground peanuts                                                 \n
+        \u2022 130 g peanut butter                                                  \n
+        \u2022 62.5 g shrimp paste                                                  \n
+        \u2022 963.89 g water about 1 Liter                                         \n
+        \u2022 118.29 g annatto seeds soaked in a cup of water                      \n
+        \u2022 92.5 g toasted ground rice                                           \n
+        \u2022 1 tbsp garlic minced                                                 \n
+        \u2022 1 piece onion chopped                                                \n
+        \u2022 salt and pepper                                                      \n
+    </string>
+    <string name="ins_kare_kare">
+        1.	In a large pot, bring the water to a boil                                                                                                        \n
+        2.	Put in the oxtail followed by the onions and simmer for 2.5 to 3 hrs or until tender (35 minutes if using a pressure cooker)                     \n
+        3.	Once the meat is tender, add the ground peanuts, peanut butter, and coloring (water from the annatto seed mixture) and simmer for 5 to 7 minutes \n
+        4.	Add the toasted ground rice and simmer for 5 minutes                                                                                             \n
+        5.	On a separate pan, saute the garlic then add the banana flower, eggplant, and string beans and cook for 5 minutes                                \n
+        6.	Transfer the cooked vegetables to the large pot (where the rest of the ingredients are)                                                          \n
+        7.	Add salt and pepper to taste                                                                                                                     \n
+        8.	Serve hot with shrimp paste. Enjoy!                                                                                                              \n \n
+        Reference: https://www.hungryhuy.com/kare-kare/
+    </string>
+
 </resources>

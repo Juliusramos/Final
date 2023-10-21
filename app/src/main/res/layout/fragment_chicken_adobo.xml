@@ -22,7 +22,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="200sp"
-                    android:src="@drawable/ChickenAdobo"
+                    android:src="@drawable/chickenadobo"
                     android:scaleType="centerCrop"
                     android:contentDescription="@string/batchoy_tagalog">
                 </ImageView>
@@ -56,7 +56,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/sub_adobosagata"
+                        android:text="@string/sub_cook50_good46"
                         android:textAlignment="center"
                         android:layout_margin="2dp"/>
 
