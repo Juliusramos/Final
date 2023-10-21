@@ -363,6 +363,187 @@
         5.	Add the fish sauce and dried Taro leaves and simmer for 40 to 60. Add water if needed.    \n
         6.	Put the shrimps in and cook for 5 minutes. Season with ground black pepper.               \n
         7.	Serve hot. Enjoy                                                                        \n  \n
-        Reference: https://www.panlasangpinoyrecipes.com/sisig-kapampangan-recipe/                    \n
+        Reference: https://www.panlasangpinoyrecipes.com/laing-recipe/                    \n
+    </string>
+    <string name="pork_adobo1">Pork Adobo</string>
+    <string name="bl_pork_adobo1">
+        \u2022 2 lbs pork belly                                                             \n
+        \u2022 2 tablespoons garlic                                                         \n
+        \u2022 5 dried bay leaves                                                           \n
+        \u2022 4 tablespoons vinegar                                                        \n
+        \u2022 1/2 cup soy sauce                                                            \n
+        \u2022 1 tablespoon peppercorn                                                      \n
+        \u2022 2 cups water                                                                 \n
+        \u2022 Salt to taste                                                                \n
+    </string>
+    <string name="ins_pork_adobo1">
+    1.	Combine the pork belly, soy sauce, and garlic then marinade for at least 1 hour                                                   \n
+    2.	Heat the pot and put-in the marinated pork belly then cook for a few minutes                                                      \n
+    3.	Pour remaining marinade including garlic.                                                                                         \n
+    4.  Add water, whole pepper corn, and dried bay leaves then bring to a boil. Simmer for 40 minutes to 1 hour if needed.               \n
+    6.	Put-in the vinegar and simmer for 12 to 15 minutes                                                                                \n
+    7.	Add salt to taste                                                                                                                \n \n
+    Reference: https://www.panlasangpinoyrecipes.com/pork-adobo-recipe/                                                            \n
+    </string>
+    <string name="sinigang_bangus">Sinigang Bangus</string>
+    <string name="bl_sinigang_bangus">
+        \u2022 2 lbs. bangus milkfish, cleaned and sliced                                         \n
+        \u2022 1 40g pack Knorr Sinigang sa Sampaloc Mix (Original)                               \n
+        \u2022 1 bunch fresh kangkong leaves                                                      \n
+        \u2022 12 pieces sitaw snake beans, cut into 2 inch pieces                                \n
+        \u2022 6 to 8 pieces okra                                                                 \n
+        \u2022 2 pieces long green pepper siling pansigang                                        \n
+        \u2022 1 medium tomato wedged                                                             \n
+        \u2022 1 medium yellow onion wedged                                                       \n
+        \u2022 2 ½ tablespoons fish sauce                                                         \n
+        \u2022 ¼ teaspoon ground black pepper                                                     \n
+        \u2022 2 quarts water                                                                     \n
+    </string>
+    <string name="ins_sinigang_bangus">
+    1.	Heat a cooking pot. Pour water into it. Add tomato and anion. Let boil.                                            \n
+    2.	Add bangus. Cover and cook in medium heat between 8 to 12 minutes.                                                 \n
+    3.	Add Knorr Sinigang sa Sampaloc Mix. Stir. Cook for 2 minutes.                                                      \n
+    4.  Put the long green pepper into the pot. Add snake beans and okra. Stir. Cover and cook for 5 to 7 minutes.         \n
+    6.	Add fish sauce and ground black pepper. Stir.                                                                      \n
+    7.	Put the kangkong leaves into the pot. Cover the pot and turn the heat off. Let it stay for 5 minutes.             \n \n
+    Reference: https://www.panlasangpinoyrecipes.com/bangus-sinigang-recipe/                                             \n
+    </string>
+    <string name="bicol_express">Bicol Express</string>
+    <string name="bl_bicol_express">
+        \u2022 2 lbs. pork belly sliced into strips                                     \n
+        \u2022 2 cups coconut milk                                                      \n
+        \u2022 2 cups coconut cream                                                     \n
+        \u2022 1/2 cup shrimp paste bagoong alamang                                     \n
+        \u2022 4 cloves garlic crushed                                                  \n
+        \u2022 6 pieces Thai chili pepper chopped                                       \n
+        \u2022 1 thumb ginger minced                                                    \n
+        \u2022 1 piece onion chopped                                                    \n
+        \u2022 1 pieces Serrano pepper sliced                                           \n
+        \u2022 1 cup water optional                                                     \n
+    </string>
+    <string name="ins_bicol_express">                                                                                                            \n
+    1.  Combine ginger, garlic, onion, Thai chili pepper, pork, and coconut milk in a pan. Mix well.                                             \n
+    2.	Add half of the bagoong and pour around 1 cup of coconut cream and a cup of water.Cook until the sauce reduces to a quarter              \n
+    3.	Add the remaining coconut cream and bagoong alamang (as needed). Also add the Serrano peppers.                                           \n
+    4.  Transfer to a serving plate and serve with warm rice.                                                                                   \n \n
+    Reference: https://www.panlasangpinoyrecipes.com/bicol-express-recipe/                                                                   \n
+    </string>
+
+    <string name="pork_giniling">Pork Giniling</string>
+    <string name="bl_pork_giniling">
+        \u2022 1 1/2 lb ground pork                                                            \n
+        \u2022 1 1/2 cups potatoes diced                                                       \n
+        \u2022 1 cup carrots diced                                                             \n
+        \u2022 8 ounces tomato sauce                                                           \n
+        \u2022 6 cloves garlic crushed                                                         \n
+        \u2022 1 medium-sized onion minced                                                     \n
+        \u2022 1 teaspoon granulated sugar                                                     \n
+        \u2022 1 piece beef or pork cube                                                       \n
+        \u2022 4 boiled eggs shelled (optional)                                                \n
+        \u2022 Salt and pepper to taste                                                        \n
+        \u2022 3 tablespoons cooking oil                                                       \n
+         \u2022 1 cup water                                                                    \n
+    </string>
+    <string name="ins_pork_giniling">
+    1.	Heat a cooking pot and pour-in the cooking oil.                                                                                           \n
+    2.	When the oil is hot enough, put-in the garlic and sauté until the color turns light brown.                                                \n
+    3.	Add the onions and sauté until the texture becomes soft. Put-in the ground pork and cook for 5 minutes.                                   \n
+    4.  Add the beef or pork cube, tomato sauce, and water and let boil. Simmer for 20 minutes.                                                   \n
+    6.	Put the carrots and potatoes in then stir until every ingredient is properly distributed. Simmer for 10 to 12 minutes.                    \n
+    7.	Add salt, ground black pepper, and sugar then stir. Put in the boiled eggs and turn off the heat.                                        \n \n
+    Reference: https://www.panlasangpinoyrecipes.com/sisig-kapampangan-recipe/                                                                    \n
+    </string>
+
+    <string name="pork_menudo">Pork Menudo</string>
+    <string name="bl_pork_menudo">
+        \u2022 2 lbs. pork                                                                       \n
+        \u2022 1 cup potatoes diced                                                              \n
+        \u2022 1/4 lb. pig liver                                                                 \n
+        \u2022 1 piece carrot cubed                                                              \n
+        \u2022 1/2 cup soy sauce                                                                 \n
+        \u2022 1 piece onion chopped                                                             \n
+        \u2022 3 cloves garlic minced                                                            \n
+        \u2022 3/4 cup tomato sauce                                                              \n
+        \u2022 Salt and pepper to taste                                                          \n
+        \u2022 2 to 3 pieces dried bay leaves                                                    \n
+         \u2022 1 cup water                                                                      \n
+    </string>
+    <string name="ins_pork_menudo">
+    1.	Combine pork, soysauce, and lemon in a bowl. Marinate for at least 1 hour.                                                                                        \n
+    2.	Heat oil in a pan. Saute garlic and onion. Add the marinated pork. Cook for 5 to 7 minutes.                                                                       \n
+    3.	Pour in tomato sauce and water and then add the bay leaves.Let boil and simmer for 30 minutes to an hour depending on the toughness of the pork.                  \n
+    4.  Add-in the liver and hot dogs.Cook for 5 minutes.                                                                                                                 \n
+    6.  Put-in potatoes, carrots, sugar,salt, and pepper. Stir and cook for 8 to 12 minutes.                                                                              \n
+    7.	Serve. Share and enjoy!                                                                                                                                         \n  \n
+    Reference: https://www.panlasangpinoyrecipes.com/pork-menudo-recipe/                                                                                                  \n
+    </string>
+
+    <string name="sinigang_hipon">Sinigang Hipon</string>
+    <string name="bl_sinigang_hipon">
+        \u2022 1 lb. shrimp cleaned                                                              \n
+        \u2022 44 grams Knorr Sinigang sa Sampaloc Mix                                           \n
+        \u2022 1 bunch kangkong                                                                  \n
+        \u2022 5 pieces okra                                                                     \n
+        \u2022 1 piece eggplant                                                                  \n
+        \u2022 1 cup daikon radish sliced                                                        \n
+        \u2022 1 piece tomato sliced                                                             \n
+        \u2022 1 piece onion                                                                     \n
+        \u2022 2 quarts water                                                                    \n
+        \u2022 Fish sauce and ground black pepper to taste                                       \n
+    </string>
+    \n
+    <string name="ins_sinigang_hipon">
+    1.	Boil water in a cooking pot. Add onion, tomato, and radish. Cover and continue to boil for 8 minutes.                      \n
+    2.	Add shrimp. Cook for 1 minute.                                                                                             \n
+    3.	Add Knorr Sinigang sa Sampaloc Recipe Mix. Stir until it dilutes completely. Cover and cook for 3 minutes.                 \n
+    4.  Add long green pepper, snake beans, okra, and eggplant. Stir. Cook for 5 minutes.                                          \n
+    6.  Put the kangkong stalks into the pot. Season with fish salt and ground black pepper.                                       \n
+    7.	Add kangkong leaves. Cook for 1 minute.                                                                                 \n   \n
+    Reference: https://www.panlasangpinoyrecipes.com/sinigang-hipon-recipe/                                                           \n
+    </string>
+
+    <string name="pork_bistek">Pork Bistek</string>
+    <string name="bl_pork_bistek">
+        \u2022 2 lbs. pork                                                                      \n
+        \u2022 5 tablespoons soy sauce                                                          \n
+        \u2022 2 pieces lime or calamansi                                                       \n
+        \u2022 1/2 cup cooking oil                                                              \n
+        \u2022 2 pieces onions sliced                                                           \n
+        \u2022 1 1/2 cups water                                                                 \n
+        \u2022 1/2 teaspoon granulated white sugar                                              \n
+        \u2022 Salt and pepper to taste                                                         \n
+    </string>
+    <string name="ins_pork_bistek">
+    1.	Combine pork, soy sauce, and lime juice in a large bowl or resealable bag. Marinate for at least 1 hour.                                     \n
+    2.	Heat a pan then pour-in cooking oil.                                                                                                         \n
+    3.	Pan-fry the marinated pork in medium heat for 3 minutes per side.                                                                            \n
+    4.  Remove excess oil. Pour-in the remaining marinade and water and let boil. Simmer for 45 minutes or until the pork is tender.                 \n
+    6.  Add-in the sugar, salt, and pepper then stir.                                                                                                \n
+    7.	Put-in the onions and cook for 3 minutes more. Turn-off heat and transfer to a serving plate.                                             \n \n
+    Reference: https://www.panlasangpinoyrecipes.com/pork-bistek-recipe/                                                                          \n
+    </string>
+
+    <string name="chicken_curry">Chicken Curry</string>
+    <string name="bl_chicken_curry">
+        \u2022 2 lbs. chicken cut into serving pieces
+        \u2022 1 tablespoon curry powder
+        \u2022 1 piece potato cubed
+        \u2022 4 cloves garlic minced
+        \u2022 2 stalks celery sliced
+        \u2022 1/2 cup all-purpose cream optional
+        \u20222 2 pieces long green pepper
+        \u2022 Salt and pepper to taste
+        \u2022 2 cups coconut milk
+        \u2022 1 piece red bell pepper sliced
+    </string>
+    <string name="ins_chicken_curry">
+    1.	Heat oil in a pan. Fry potato for 1 minute per side. Remove from the pan. Set aside.                                                            \n
+    2.	Using the remaining oil, saute garlic, onion, celery, and ginger until onion softens.                                                           \n
+    3.	Add the chicken pieces. Saute until the outer part of the chicken turns light brown.                                                            \n
+    4.  Add 1 tablespoon fish sauce. Continue sautéing for 1 minute.                                                                                    \n
+    6.  Pour-in coconut milk and water. Let boil.                                                                                                       \n
+    7.	Add curry powder. Stir until the powder is completely diluted. Cover the pot and continue cooking between low to medium heat.                   \n
+    8.  Add the red bell pepper and pan fried-potato. Cook for 5 minutes. Transfer to a serving bowl.                                                  \n \n
+    Reference: https://www.panlasangpinoyrecipes.com/chicken-curry-recipe/                                                                             \n
     </string>
 </resources>
