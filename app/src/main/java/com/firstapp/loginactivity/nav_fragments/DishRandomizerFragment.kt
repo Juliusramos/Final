@@ -10,17 +10,30 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.navigation.Navigation
 import com.firstapp.loginactivity.R
+import com.firstapp.loginactivity.dishes.AdoboSteak
 import com.google.android.material.button.MaterialButton
-import androidx.fragment.app.FragmentManager
-import androidx.navigation.NavController
-import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.fragment.findNavController
 import com.firstapp.loginactivity.dishes.AdobosaGata
 import com.firstapp.loginactivity.dishes.BatchoyTagalog
+import com.firstapp.loginactivity.dishes.BicolExpress
+import com.firstapp.loginactivity.dishes.BokChoyAdobo
 import com.firstapp.loginactivity.dishes.ChickenAdobo
+import com.firstapp.loginactivity.dishes.ChickenCurry
+import com.firstapp.loginactivity.dishes.CrispyShrimpAdobo
+import com.firstapp.loginactivity.dishes.KareKare
+import com.firstapp.loginactivity.dishes.Laing
+import com.firstapp.loginactivity.dishes.PorkAdobo
+import com.firstapp.loginactivity.dishes.PorkBistek
+import com.firstapp.loginactivity.dishes.PorkGiniling
+import com.firstapp.loginactivity.dishes.PorkMenudo
 import com.firstapp.loginactivity.dishes.Sinigang
+import com.firstapp.loginactivity.dishes.SinigangBangus
+import com.firstapp.loginactivity.dishes.SinigangHipon
+import com.firstapp.loginactivity.dishes.Sisig
+import com.firstapp.loginactivity.dishes.SisigBangus
+import com.firstapp.loginactivity.dishes.SisigKapampangan
+import com.firstapp.loginactivity.dishes.SisigTofu
+import com.firstapp.loginactivity.dishes.Tinola
 
 
 class DishRandomizerFragment : Fragment() {
@@ -29,14 +42,32 @@ class DishRandomizerFragment : Fragment() {
     private lateinit var rdmButton: Button
     private lateinit var continueButton: MaterialButton
     private lateinit var foodName: TextView
-    private var count = 1
 
 
     val foodItems: List<Pair<Int, String>> = listOf(
         R.drawable.adobosagata to "Adobo sa Gata",
         R.drawable.batchoytagalog to "Batchoy Tagalog",
         R.drawable.chickenadobo to "Chicken Adobo",
-        R.drawable.porksinigang to "Pork Sinigang"
+        R.drawable.porksinigang to "Pork Sinigang",
+        R.drawable.adobosteak to "Adobo Steak",
+        R.drawable.bcexpress to "Bicol Express",
+        R.drawable.bokchoyadobo to "BokChoy Adobo",
+        R.drawable.chickencurry to "Chicken Curry",
+        R.drawable.crispyshrimpadobo to "Crispy Shrimp Adobo",
+        R.drawable.karekare to "KareKare",
+        R.drawable.laing to "Laing",
+        R.drawable.adobopork to "Pork Adobo",
+        R.drawable.bistek to "Pork Bistek",
+        R.drawable.giniling to "Pork Giniling",
+        R.drawable.menudo to "Menudo",
+        R.drawable.porksinigang to "Sinigang",
+        R.drawable.sgbangus to "Sinigang na Bangus",
+        R.drawable.hipon to "Sinigang na Hipon",
+        R.drawable.sisigpork to "Pork Sisig",
+        R.drawable.sisigbangus to "Bangus Sisig",
+        R.drawable.sisigkapampanga to "Sisig Kapampangan",
+        R.drawable.sisigtofu to "Tofu Sisig",
+        R.drawable.tinola1 to "Tinola"
     )
 
     override fun onCreateView(
@@ -82,7 +113,25 @@ class DishRandomizerFragment : Fragment() {
              R.drawable.batchoytagalog -> transaction.replace(R.id.fragment_DishRandomizer,  BatchoyTagalog())
              R.drawable.porksinigang -> transaction.replace(R.id.fragment_DishRandomizer,  Sinigang())
              R.drawable.chickenadobo -> transaction.replace(R.id.fragment_DishRandomizer,  ChickenAdobo())
-                 else ->{}
+             R.drawable.adobosteak -> transaction.replace(R.id.fragment_DishRandomizer, AdoboSteak())
+             R.drawable.bcexpress -> transaction.replace(R.id.fragment_DishRandomizer, BicolExpress())
+             R.drawable.bokchoyadobo -> transaction.replace(R.id.fragment_DishRandomizer, BokChoyAdobo())
+             R.drawable.chickencurry -> transaction.replace(R.id.fragment_DishRandomizer, ChickenCurry())
+             R.drawable.crispyshrimpadobo -> transaction.replace(R.id.fragment_DishRandomizer, CrispyShrimpAdobo())
+             R.drawable.karekare -> transaction.replace(R.id.fragment_DishRandomizer, KareKare())
+             R.drawable.laing -> transaction.replace(R.id.fragment_DishRandomizer, Laing())
+             R.drawable.menudo -> transaction.replace(R.id.fragment_DishRandomizer, PorkMenudo())
+             R.drawable.adobopork -> transaction.replace(R.id.fragment_DishRandomizer, PorkAdobo())
+             R.drawable.bistek -> transaction.replace(R.id.fragment_DishRandomizer, PorkBistek())
+             R.drawable.giniling -> transaction.replace(R.id.fragment_DishRandomizer, PorkGiniling())
+             R.drawable.sgbangus -> transaction.replace(R.id.fragment_DishRandomizer, SinigangBangus())
+             R.drawable.hipon -> transaction.replace(R.id.fragment_DishRandomizer, SinigangHipon())
+             R.drawable.sisigpork -> transaction.replace(R.id.fragment_DishRandomizer, Sisig())
+             R.drawable.sisigbangus -> transaction.replace(R.id.fragment_DishRandomizer, SisigBangus())
+             R.drawable.sisigkapampanga -> transaction.replace(R.id.fragment_DishRandomizer, SisigKapampangan())
+             R.drawable.sisigtofu -> transaction.replace(R.id.fragment_DishRandomizer, SisigTofu())
+             R.drawable.tinola1 -> transaction.replace(R.id.fragment_DishRandomizer, Tinola())
+             else ->{}
          }
          transaction.addToBackStack("Dish Randomizer")
          transaction.commit()

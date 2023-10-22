@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".bottom_fragments.FavFragment">
-
+    tools:context=".bottom_fragments.FavFragment"
+    android:id="@+id/alldishes"
+    android:layout_marginBottom="80dp">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,11 +25,12 @@
             android:layout_width="170dp"
             android:layout_height="170dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:backgroundTint="@color/orange"
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/Adobo"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/adobo_sa_gata"
@@ -46,11 +50,12 @@
             android:layout_width="170dp"
             android:layout_height="170dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:backgroundTint="@color/orange"
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/adobosteak"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/adobo_steak"
@@ -82,6 +87,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/batchoytagalog"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/batchoy_tagalog"
@@ -106,10 +112,11 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/bicolexpress"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/bicol_express"
-                android:padding="-30dp"
+                android:padding="-50dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/bcexpress">
             </ImageButton>
@@ -137,6 +144,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/bokchoyadobo"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/bok_choy_adobo"
@@ -161,6 +169,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/chickenadobo"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/chicken_adobo"
@@ -192,6 +201,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/chickencurry"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/chicken_curry"
@@ -216,10 +226,11 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/crispyshrimpadobo"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/crispy_shrimp_adobo"
-                android:padding="-30dp"
+                android:padding="-50dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/crispyshrimpadobo">
             </ImageButton>
@@ -247,6 +258,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/karekare"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/kare_kare"
@@ -271,6 +283,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/laing"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/laing"
@@ -302,6 +315,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/porkadobo"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/pork_adobo1"
@@ -326,6 +340,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/porkbistek"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/pork_bistek"
@@ -357,6 +372,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/porkginiling"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/pork_giniling"
@@ -381,6 +397,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/porkmenudo"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/pork_menudo"
@@ -412,6 +429,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/sinigang"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/sinigang"
@@ -436,6 +454,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/sinigangbangus"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/sinigang_bangus"
@@ -467,6 +486,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/siniganghipon"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/sinigang_hipon"
@@ -491,6 +511,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/porksisig"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/pork_sisig"
@@ -522,6 +543,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/sisigbangus"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/sisig_bangus"
@@ -546,6 +568,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/sisigkapampangan"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/sisig_kapampangan"
@@ -577,6 +600,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/sisigtofu"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/sisig_tofu"
@@ -601,6 +625,7 @@
             app:cardCornerRadius="25dp">
 
             <ImageButton
+                android:id="@+id/tinola"
                 android:layout_width="170dp"
                 android:layout_height="150dp"
                 android:contentDescription="@string/tinola"
@@ -618,3 +643,4 @@
     </LinearLayout>
 </LinearLayout>
 </ScrollView>
+</FrameLayout>
