@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageButton
 import android.widget.Toast
 import com.firstapp.loginactivity.R
 import com.firstapp.loginactivity.bottom_fragments.FavFragment
@@ -33,16 +32,14 @@ class HomeFragment : Fragment() {
                     replaceFragment(Home2Fragment())
                     activity?.title = "Home"
                 }
-
                 R.id.bottom_fav -> {
                     replaceFragment(FavFragment())
                     activity?.title = "Favorite"
                 }
-
             }
             true
         }
-        replaceFragment(Home2Fragment())
+//        replaceFragment(Home2Fragment())
         activity?.title = "Category"
         bottomNavigationView.selectedItemId = R.id.bottom_cat
 
