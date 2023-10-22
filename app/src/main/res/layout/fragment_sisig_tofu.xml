@@ -22,7 +22,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="200sp"
-                    android:src="@drawable/sisigkapampanga"
+                    android:src="@drawable/sisigtofu"
                     android:scaleType="centerCrop"
                     android:contentDescription="@string/sisig_tofu">
                 </ImageView>
