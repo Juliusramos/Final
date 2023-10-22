@@ -203,7 +203,6 @@
         \u2022 1 medium onion sliced                 \n
         \u2022 4 tablespoons extra virgin olive oil  \n
         \u2022 salt and pepper to taste              \n
-
     </string>
     <string name="ins_adobo_steak">
         1.	Heat a cooking pot then pour-in 2 tablespoons of olive oil.                                                                 \n
@@ -545,5 +544,54 @@
     7.	Add curry powder. Stir until the powder is completely diluted. Cover the pot and continue cooking between low to medium heat.                   \n
     8.  Add the red bell pepper and pan fried-potato. Cook for 5 minutes. Transfer to a serving bowl.                                                  \n \n
     Reference: https://www.panlasangpinoyrecipes.com/chicken-curry-recipe/                                                                             \n
+    </string>
+    <string name="sisig_tofu">Sisig Tofu</string>
+    <string name="bl_sisig_tofu">
+        \u2022 6 pcs Tokwa/ Tofu (dice)        \n
+        \u2022 1 pc white onion ( dice)        \n
+        \u2022 3 cloves garlic (chopped)       \n
+        \u2022 ¼ cup mayonnaise                \n
+        \u2022 1 small bell pepper(small dice) \n
+        \u2022 1 pc chili red                  \n
+        \u2022 1 pc chili green                \n
+        \u2022 ½ tsp salt                      \n
+        \u2022 ½ tsp pepper                    \n
+        \u2022 1 tsp sugar                     \n
+        \u2022 3 pcs calamansi                 \n
+        \u2022 ⅛ cup knorr seasoning           \n
+        \u2022 2 tbsp butter                   \n
+        \u2022 Oil for frying                  \n
+    </string>
+    <string name="ins_sisig_tofu">
+        1.	Prepare and slice all the ingredients and cooking tools.                                                         \n
+        2.	Heat the pan with oil and fry the tofu until golden brown. Strained the excess oil                               \n
+        3.	After frying, in the same pan remove the oil and add the butter.                                                 \n
+        4.	Saute the onion, garlic, and bell pepper then add the chillies and fried tofu.                                   \n
+        5.	Seasoned with salt, pepper, sugar, knorr seasoning, calamansi and mayonnaise. Stir it well                       \n
+        6.	Served in a Sizzling Plate and Add more mayonnaise if you like, with knorr seasoning, extra chili and calamansi. \n
+        7.	Share and enjoy                                                                                                  \n \n
+        Reference: https://www.panlasangpinoyrecipes.com/tofu-sisig-recipes/                                                 \n
+    </string>
+    <string name="bl_tinola">
+        \u2022 1 tablespoon cooking oil                                    \n
+        \u2022 1 medium onion, chopped                                     \n
+        \u2022 2 cloves garlic, minced                                     \n
+        \u2022 1 (1 1/2 inch) piece fresh ginger, peeled and thinly sliced \n
+        \u2022 1 tablespoon fish sauce                                     \n
+        \u2022 3 pounds chicken legs and thighs, rinsed and patted dry     \n
+        \u2022 2 (14 ounce) cans chicken broth                             \n
+        \u2022 1 chayote squash, peeled and cut into bite-sized pieces     \n
+        \u2022 salt and ground black pepper to taste                       \n
+        \u2022 1 head bok choy, chopped                                    \n
+        \u2022 1 (8 ounce) package fresh spinach, chopped                  \n
+    </string>
+    <string name="ins_tinola">
+        1. Sauté the garlic, onion, and ginger
+        2. Put-in the chicken and cook until color turns light brown
+        3. Add the fish sauce. Stir. Pour rice washing into the cooking pot. Let boil. Cover the pot and simmer for 45 minutes. Note: add water if needed.
+        4. Add green papaya. Cook for 5 minutes
+        5. Add the hot pepper leaves or malunggay leaves. Stir and cook for 1 minute.
+        6. Season with ground black pepper. Note you can also add fish sauce or salt if needed.
+        7. Transfer to a serving bowl. Serve hot. Share and enjoy!
     </string>
 </resources>
