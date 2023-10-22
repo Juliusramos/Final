@@ -33,7 +33,6 @@ class HomeFragment : Fragment() {
                     replaceFragment(Home2Fragment())
                     activity?.title = "Home"
                 }
-
                 R.id.bottom_fav -> {
                     replaceFragment(FavFragment())
                     activity?.title = "Favorite"
@@ -42,7 +41,7 @@ class HomeFragment : Fragment() {
             }
             true
         }
-        replaceFragment(Home2Fragment())
+//        replaceFragment(Home2Fragment())
         activity?.title = "Category"
         bottomNavigationView.selectedItemId = R.id.bottom_cat
 

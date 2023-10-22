@@ -8,10 +8,12 @@ import android.view.ViewGroup
 import android.widget.Button
 import com.firstapp.loginactivity.R
 
-class AdobosaGata : Fragment() {
-
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val view = inflater.inflate(R.layout.fragment_adobosagata, container, false)
+class Tinola : Fragment() {
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val view = inflater.inflate(R.layout.fragment_tinola, container, false)
         val back = view.findViewById<Button>(R.id.vb_backhome)
 
         back.setOnClickListener{

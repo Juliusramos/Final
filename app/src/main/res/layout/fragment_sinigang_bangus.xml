@@ -5,8 +5,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:fillViewport="true"
-    tools:context=".dishes.BatchoyTagalog"
-    android:id="@+id/frg_batchoy_tagalog">
+    tools:context=".dishes.SinigangBangus"
+    android:id="@+id/frg_SinigangBangus">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -19,19 +19,21 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_width="421dp"
                     android:layout_height="200sp"
-                    android:src="@drawable/batchoytagalog"
+                    android:contentDescription="@string/sinigang_bangus"
                     android:scaleType="centerCrop"
-                    android:contentDescription="@string/batchoy_tagalog">
+                    android:src="@drawable/sgbangus">
+
                 </ImageView>
-                            <Button
-                                android:id="@+id/vb_backhome"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:background="@drawable/baseline_keyboard_backspace_24"
-                                android:backgroundTint="@color/black"/>
+                <Button
+                    android:id="@+id/vb_backhome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_keyboard_backspace_24"
+                    android:backgroundTint="@color/black"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -49,14 +51,14 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/batchoy_tagalog"
+                        android:text="@string/sinigang_bangus"
                         android:textSize="20sp"
                         android:textAlignment="center"
                         android:layout_margin="6dp"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/sub_cook40_good46"
+                        android:text="@string/sub_cook30_good24"
                         android:textAlignment="center"
                         android:layout_margin="2dp"/>
 
@@ -76,32 +78,30 @@
                         android:padding="5sp"/>
 
                     <TextView
-                        android:id="@+id/tv_adobosagata"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif"
                         android:layout_marginTop="3dp"
                         android:lineSpacingExtra="8sp"
                         android:padding="5sp"
-                        android:text="@string/bl_batchoy_tagalog"
+                        android:text="@string/bl_sinigang_bangus"
                         android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/instructions"
+                        android:text="@string/sinigang_bangus"
                         android:fontFamily="sans-serif"
                         android:textSize="18sp"
                         android:padding="5sp"/>
 
                     <TextView
-                        android:id="@+id/ins_adobosagata"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif"
                         android:lineSpacingExtra="8sp"
                         android:padding="5sp"
-                        android:text="@string/ins_batchoy_tagalog"
+                        android:text="@string/ins_sinigang_bangus"
                         android:textSize="17sp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

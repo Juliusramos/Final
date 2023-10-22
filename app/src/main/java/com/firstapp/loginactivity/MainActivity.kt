@@ -19,7 +19,6 @@ import com.firstapp.loginactivity.nav_fragments.AboutFragment
 import com.firstapp.loginactivity.nav_fragments.BudgetFragment
 import com.firstapp.loginactivity.nav_fragments.ConversionFragment
 import com.firstapp.loginactivity.nav_fragments.DishRandomizerFragment
-import com.firstapp.loginactivity.nav_fragments.FridgeFragment
 import com.firstapp.loginactivity.nav_fragments.HomeFragment
 import com.firstapp.loginactivity.nav_fragments.LagoutFragment
 import com.firstapp.loginactivity.nav_fragments.ProfileFragment
@@ -104,10 +103,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_dish_randomizer -> {
                 replaceFragment(DishRandomizerFragment())
                 title = "Dish Randomizer"
-            }
-            R.id.nav_fridge -> {
-                replaceFragment(FridgeFragment())
-                title = "Fridge"
             }
             R.id.nav_profile -> {
                 replaceFragment(ProfileFragment())

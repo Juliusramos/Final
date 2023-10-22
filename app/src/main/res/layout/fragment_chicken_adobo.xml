@@ -56,7 +56,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/sub_adobosagata"
+                        android:text="@string/sub_cook50_good46"
                         android:textAlignment="center"
                         android:layout_margin="2dp"/>
 
