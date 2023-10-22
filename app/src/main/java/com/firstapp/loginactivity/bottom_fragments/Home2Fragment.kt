@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import android.widget.ImageButton
 import com.firstapp.loginactivity.R
 import com.firstapp.loginactivity.dishes.AdobosaGata
+import com.firstapp.loginactivity.dishes.Tinola
 
 
 class Home2Fragment : Fragment() {
@@ -34,6 +35,10 @@ class Home2Fragment : Fragment() {
         btadobo.setOnClickListener {
             onClickPorkAdobo()
         }
+        val bttinola = view.findViewById<ImageButton>(R.id.tinola)
+        bttinola.setOnClickListener{
+            onClickTinola()
+        }
         // Inflate the layout for this fragment
         return view
     }
@@ -41,7 +46,13 @@ class Home2Fragment : Fragment() {
     private fun onClickPorkAdobo() {
         val fragmentTransaction = childFragmentManager.beginTransaction()
         fragmentTransaction.add(R.id.frg_home2, AdobosaGata())
-        fragmentTransaction.addToBackStack("Adobo - ${count++}")
+        fragmentTransaction.addToBackStack("Home - ${count++}")
+        fragmentTransaction.commit()
+    }
+    private fun onClickTinola() {
+        val fragmentTransaction = childFragmentManager.beginTransaction()
+        fragmentTransaction.add(R.id.frg_home2, Tinola())
+        fragmentTransaction.addToBackStack("Home - ${count++}")
         fragmentTransaction.commit()
     }
 }

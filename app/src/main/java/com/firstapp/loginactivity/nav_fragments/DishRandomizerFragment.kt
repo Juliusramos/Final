@@ -84,7 +84,7 @@ class DishRandomizerFragment : Fragment() {
              R.drawable.chickenadobo -> transaction.replace(R.id.fragment_DishRandomizer,  ChickenAdobo())
                  else ->{}
          }
-         transaction.addToBackStack(null)
+         transaction.addToBackStack("Dish Randomizer")
          transaction.commit()
      }
 }
