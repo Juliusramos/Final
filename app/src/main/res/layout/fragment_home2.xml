@@ -47,7 +47,7 @@
                         android:src="@drawable/adobo"
                         android:padding="-50dp"
                         android:scaleType="centerCrop"
-                        android:contentDescription="TODO">
+                        android:contentDescription="@string/pork_adobo">
                     </ImageButton>
 
                     <TextView
@@ -64,7 +64,6 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/tinola"
                     android:layout_width="150dp"
                     android:layout_height="170dp"
                     android:background="@color/orange"
@@ -73,12 +72,13 @@
                     app:cardCornerRadius="25dp">
 
                     <ImageButton
+                        android:id="@+id/tinola"
                         android:layout_width="150dp"
                         android:layout_height="137dp"
                         android:src="@drawable/tinola"
                         android:padding="-50dp"
                         android:scaleType="centerCrop"
-                        android:contentDescription="TODO">
+                        android:contentDescription="@string/tinola">
                     </ImageButton>
 
                     <TextView
@@ -94,7 +94,6 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/menudo"
                     android:layout_width="150dp"
                     android:layout_height="170dp"
                     android:background="@color/orange"
@@ -103,12 +102,13 @@
                     app:cardCornerRadius="25dp">
 
                     <ImageButton
+                        android:id="@+id/menudo"
                         android:layout_width="150dp"
                         android:layout_height="137dp"
                         android:src="@drawable/menudo"
                         android:padding="-50dp"
                         android:scaleType="centerCrop"
-                        android:contentDescription="TODO">
+                        android:contentDescription="@string/menudo">
                     </ImageButton>
 
                     <TextView
@@ -124,7 +124,6 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/sinigang"
                     android:layout_width="150dp"
                     android:layout_height="170dp"
                     android:background="@color/orange"
@@ -133,12 +132,13 @@
                     app:cardCornerRadius="25dp">
 
                     <ImageButton
+                        android:id="@+id/sinigang"
                         android:layout_width="150dp"
                         android:layout_height="137dp"
                         android:src="@drawable/sinigago"
                         android:padding="-50dp"
                         android:scaleType="centerCrop"
-                        android:contentDescription="TODO">
+                        android:contentDescription="@string/sinigang">
                     </ImageButton>
 
                     <TextView
@@ -154,7 +154,6 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/sisig"
                     android:layout_width="150dp"
                     android:layout_height="170dp"
                     android:background="@color/orange"
@@ -164,12 +163,13 @@
                     app:cardCornerRadius="25dp">
 
                     <ImageButton
+                        android:id="@+id/sisig"
                         android:layout_width="150dp"
                         android:layout_height="137dp"
                         android:src="@drawable/sisig"
                         android:padding="-50dp"
                         android:scaleType="centerCrop"
-                        android:contentDescription="TODO">
+                        android:contentDescription="@string/pork_sisig">
                     </ImageButton>
 
                     <TextView
@@ -227,12 +227,13 @@
                     app:cardCornerRadius="25dp">
 
                     <ImageButton
+                        android:id="@+id/catadobo"
                         android:layout_width="match_parent"
                         android:layout_height="137dp"
                         android:src="@drawable/catadobo"
                         android:padding="-50dp"
                         android:scaleType="centerCrop"
-                        android:contentDescription="TODO">
+                        android:contentDescription="@string/adobos">
                     </ImageButton>
 
                     <TextView
@@ -258,12 +259,13 @@
                     app:cardCornerRadius="25dp">
 
                     <ImageButton
+                        android:id="@+id/catsinigang"
                         android:layout_width="match_parent"
                         android:layout_height="137dp"
                         android:src="@drawable/catsinigang"
                         android:padding="-50dp"
                         android:scaleType="centerCrop"
-                        android:contentDescription="TODO">
+                        android:contentDescription="@string/sinigangs">
                     </ImageButton>
 
                     <TextView
@@ -289,12 +291,13 @@
                     app:cardCornerRadius="25dp">
 
                     <ImageButton
+                        android:id="@+id/catsisig"
                         android:layout_width="match_parent"
                         android:layout_height="137dp"
                         android:src="@drawable/catsisig"
                         android:padding="-50dp"
                         android:scaleType="centerCrop"
-                        android:contentDescription="TODO">
+                        android:contentDescription="@string/sisigs">
                     </ImageButton>
 
                     <TextView

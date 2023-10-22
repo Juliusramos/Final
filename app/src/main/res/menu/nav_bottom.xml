@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/bottom_cat"
-        android:title="Category"
+        android:title="@string/category"
         android:icon="@drawable/baseline_home_24"/>
     <item
         android:id="@+id/fab"
@@ -12,7 +12,7 @@
         android:enabled="false"/>
     <item
         android:id="@+id/bottom_fav"
-        android:title="Favorite"
+        android:title="@string/all_dishes"
         android:icon="@drawable/baseline_favorite_24"/>
 
 </menu>
