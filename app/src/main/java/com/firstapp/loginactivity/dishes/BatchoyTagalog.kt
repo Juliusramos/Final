@@ -16,15 +16,15 @@ class BatchoyTagalog : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_batchoy_tagalog, container, false)
-        val vbadobo = view.findViewById<Button>(R.id.vb_backhome)
-        vbadobo.setOnClickListener{
-            Log.e("mytag","vbadobo click")
-            val newFragment = Home2Fragment()
-            val transaction = parentFragmentManager.beginTransaction()
-            transaction.replace(R.id.bottomFragment, newFragment)
-            transaction.commit()
+        val back = view.findViewById<Button>(R.id.vb_backhome)
+
+        back.setOnClickListener{
+            onClickBack()
         }
         // Inflate the layout for this fragment
         return view
+    }
+    private fun onClickBack() {
+        parentFragmentManager.popBackStack()
     }
 }
