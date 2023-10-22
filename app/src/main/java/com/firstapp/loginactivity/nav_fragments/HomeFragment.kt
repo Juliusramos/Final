@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageButton
 import android.widget.Toast
 import com.firstapp.loginactivity.R
 import com.firstapp.loginactivity.bottom_fragments.FavFragment
@@ -36,6 +37,7 @@ class HomeFragment : Fragment() {
                     replaceFragment(FavFragment())
                     activity?.title = "Favorite"
                 }
+
             }
             true
         }
