@@ -36,7 +36,7 @@
     <string name="top_picks">Top picks</string>
     <string name="tinola">Tinola</string>
     <string name="menudo">Menudo</string>
-    <string name="sinigang">Sinigang</string>
+    <string name="sinigang">Pork Sinigang</string>
     <string name="pork_sisig">Pork Sisig</string>
     <string name="category">Category</string>
     <string name="adobos">Adobos</string>
@@ -596,4 +596,5 @@
         7. Transfer to a serving bowl. Serve hot. Share and enjoy!
     </string>
     <string name="adobo">Adobo</string>
+    <string name="all_dishes">All Dishes</string>
 </resources>

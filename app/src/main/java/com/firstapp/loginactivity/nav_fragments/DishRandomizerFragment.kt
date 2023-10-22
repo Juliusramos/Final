@@ -25,6 +25,7 @@ import com.firstapp.loginactivity.dishes.Laing
 import com.firstapp.loginactivity.dishes.PorkAdobo
 import com.firstapp.loginactivity.dishes.PorkBistek
 import com.firstapp.loginactivity.dishes.PorkGiniling
+import com.firstapp.loginactivity.dishes.PorkMenudo
 import com.firstapp.loginactivity.dishes.Sinigang
 import com.firstapp.loginactivity.dishes.SinigangBangus
 import com.firstapp.loginactivity.dishes.SinigangHipon
@@ -41,7 +42,6 @@ class DishRandomizerFragment : Fragment() {
     private lateinit var rdmButton: Button
     private lateinit var continueButton: MaterialButton
     private lateinit var foodName: TextView
-    private var count = 1
 
 
     val foodItems: List<Pair<Int, String>> = listOf(
@@ -120,6 +120,7 @@ class DishRandomizerFragment : Fragment() {
              R.drawable.crispyshrimpadobo -> transaction.replace(R.id.fragment_DishRandomizer, CrispyShrimpAdobo())
              R.drawable.karekare -> transaction.replace(R.id.fragment_DishRandomizer, KareKare())
              R.drawable.laing -> transaction.replace(R.id.fragment_DishRandomizer, Laing())
+             R.drawable.menudo -> transaction.replace(R.id.fragment_DishRandomizer, PorkMenudo())
              R.drawable.adobopork -> transaction.replace(R.id.fragment_DishRandomizer, PorkAdobo())
              R.drawable.bistek -> transaction.replace(R.id.fragment_DishRandomizer, PorkBistek())
              R.drawable.giniling -> transaction.replace(R.id.fragment_DishRandomizer, PorkGiniling())
