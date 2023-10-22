@@ -6,7 +6,7 @@
     android:fillViewport="true"
     android:background="@color/white"
     android:id="@+id/catesinigang"
-    android:layout_marginBottom="80dp"
+    android:layout_marginBottom="120dp"
     tools:context=".category.CateSinigang">
 
     <ScrollView
