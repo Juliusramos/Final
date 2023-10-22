@@ -9,13 +9,8 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.navigation.Navigation
 import com.firstapp.loginactivity.R
 import com.google.android.material.button.MaterialButton
-import androidx.fragment.app.FragmentManager
-import androidx.navigation.NavController
-import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.fragment.findNavController
 import com.firstapp.loginactivity.dishes.AdobosaGata
 import com.firstapp.loginactivity.dishes.BatchoyTagalog
 import com.firstapp.loginactivity.dishes.ChickenAdobo
@@ -30,7 +25,7 @@ class DishRandomizerFragment : Fragment() {
     private lateinit var foodName: TextView
 
 
-    val foodItems: List<Pair<Int, String>> = listOf(
+    private val foodItems: List<Pair<Int, String>> = listOf(
         R.drawable.adobosagata to "Adobo sa Gata",
         R.drawable.batchoytagalog to "Batchoy Tagalog",
         R.drawable.chickenadobo to "Chicken Adobo",
@@ -41,7 +36,6 @@ class DishRandomizerFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         val view: View = inflater.inflate(R.layout.fragment_dish_randomizer, container, false)
 
         imageView = view.findViewById(R.id.imageView)
@@ -52,9 +46,8 @@ class DishRandomizerFragment : Fragment() {
         rdmButton.setOnClickListener {
             rdmButton()
         }
-        continueButton.setOnClickListener {
-            ctnButton()
-        }
+        ctnButton()
+
         return view
     }
     private fun rdmButton() {
@@ -65,18 +58,18 @@ class DishRandomizerFragment : Fragment() {
             foodName.text = randomPair.second
     }
 
-     private fun ctnButton() {
+     private fun ctnButton() {continueButton.setOnClickListener{
          val transaction = parentFragmentManager.beginTransaction()
 
          when (foodItems.find { it.second == foodName.text }?.first) {
-             R.drawable.adobosagata -> transaction.replace(R.id.fragment_DishRandomizer,  AdobosaGata())
+             R.drawable.adobosagata -> transaction.replace(R.id.fragment_DishRandomizer, AdobosaGata())
              R.drawable.batchoytagalog -> transaction.replace(R.id.fragment_DishRandomizer,  BatchoyTagalog())
              R.drawable.porksinigang -> transaction.replace(R.id.fragment_DishRandomizer,  Sinigang())
-             R.drawable.chickenadobo -> transaction.replace(R.id.fragment_DishRandomizer,  ChickenAdobo())
-                 else ->{}
+             R.drawable.chickenadobo -> transaction.replace(R.id. fragment_DishRandomizer,  ChickenAdobo())
+             else -> null
          }
-         transaction.addToBackStack(null)
          transaction.commit()
+     }
      }
 }
 
