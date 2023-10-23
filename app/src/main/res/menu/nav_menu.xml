@@ -24,8 +24,7 @@
             android:id="@+id/nav_dish_randomizer"
             android:icon="@drawable/baseline_rotate_90_degrees_cw_24"
             android:title="Dish Randomizer"/>
-
-
+        
         <item
             android:id="@+id/nav_profile"
             android:icon="@drawable/baseline_person_24"

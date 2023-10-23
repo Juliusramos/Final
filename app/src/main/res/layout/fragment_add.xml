@@ -1,17 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".bottom_fragments.AddFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Add"
-        android:textSize="32dp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:textColor="@color/orange"/>
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:background="@drawable/edittext_border"
+            android:src="@drawable/sinigago"
+            android:layout_marginTop="-10dp"
+            android:scaleType="centerCrop"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_add_comment_24"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_favorite_border_24"
+                    android:layout_marginTop="-45dp"
+                    android:layout_marginStart="-40dp"
+                    android:scaleType="centerCrop">
 
-</FrameLayout>
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is Pork Sinigang"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinsmedium"/>
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/edittext_border"
+            android:src="@drawable/adobo"
+            android:scaleType="centerCrop"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_add_comment_24"
+                android:layout_marginTop="-30dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_favorite_border_24"
+                    android:layout_marginTop="-45dp"
+                    android:layout_marginStart="-40dp"
+                    android:scaleType="centerCrop">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is Pork Adobo"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinsmedium"/>
+
+
+
+
+</LinearLayout>

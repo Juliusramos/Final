@@ -2,13 +2,13 @@ package com.firstapp.loginactivity.nav_fragments
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageButton
 import android.widget.Toast
+import androidx.fragment.app.Fragment
 import com.firstapp.loginactivity.R
+import com.firstapp.loginactivity.bottom_fragments.AddFragment
 import com.firstapp.loginactivity.bottom_fragments.FavFragment
 import com.firstapp.loginactivity.bottom_fragments.Home2Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -48,6 +48,7 @@ class HomeFragment : Fragment() {
 
         val addFab = view.findViewById<FloatingActionButton>(R.id.fabAddBtn)
         addFab.setOnClickListener {
+            replaceFragment(AddFragment())
             Toast.makeText(context, "Add Clicked", Toast.LENGTH_LONG).show()
         }
 

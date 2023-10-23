@@ -7,49 +7,7 @@
     android:layout_gravity="center"
     android:orientation="vertical"
     tools:context=".nav_fragments.DishRandomizerFragment">
-<<<<<<<<< Temporary merge branch 1
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"/>
-        <TextView
-        android:id="@+id/textView"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
-        android:text="Dish Randomizer"
-        android:textSize="20sp"
-        android:textStyle="bold" />
 
-        <Button
-        android:id="@+id/rdmButton"
-        android:layout_width="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginVertical="50dp"
-        android:layout_height="wrap_content"
-        android:text="Randomize"/>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="230dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center_vertical"
-        android:layout_marginStart="90dp"
-        android:layout_marginBottom="30dp" />
-
-    <TextView
-        android:id="@+id/foodName"
-        android:layout_width="230dp"
-        android:layout_height="wrap_content"
-        android:height="50dp"
-        android:width="300dp"
-        android:background="@drawable/foodname_border"
-        android:layout_marginStart="90dp"
-        android:layout_marginEnd="90dp"
-        android:layout_marginBottom="20dp"/>
-
-    <Button
-=========
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -91,7 +49,6 @@
         android:layout_marginBottom="20dp"/>
 
     <Button
->>>>>>>>> Temporary merge branch 2
         android:id="@+id/continueButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

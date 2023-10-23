@@ -1,45 +1,30 @@
 package com.firstapp.loginactivity.nav_fragments
 
+import android.annotation.SuppressLint
 import android.os.Bundle
-import kotlin.random.Random
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
-<<<<<<<<< Temporary merge branch 1
 import android.widget.TextView
+import androidx.fragment.app.Fragment
 import com.firstapp.loginactivity.R
-
-// TODO: Rename parameter arguments, choose names that match
-//the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
+import kotlin.random.Random
 
 class DishRandomizerFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+
     private lateinit var imageView: ImageView
     private lateinit var rdmButton: Button
     private lateinit var foodName: TextView
-=========
-import com.firstapp.loginactivity.R
 
-class DishRandomizerFragment : Fragment() {
-    private lateinit var imageView: ImageView
-    private lateinit var rdmButton: Button
->>>>>>>>> Temporary merge branch 2
     val foodImages: IntArray = intArrayOf(
         R.drawable.adobochicken,
         R.drawable.adobopork,
         R.drawable.sisigpork
-<<<<<<<<< Temporary merge branch 1
 
-=========
->>>>>>>>> Temporary merge branch 2
     )
+    @SuppressLint("MissingInflatedId")
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -64,6 +49,3 @@ class DishRandomizerFragment : Fragment() {
     }
 
 }
-
-
-

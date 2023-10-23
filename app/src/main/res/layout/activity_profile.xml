@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="150dp"
-    android:paddingTop="19dp"
-    android:paddingBottom="19dp"
-    android:paddingStart="29dp"
-    android:background="@color/orange"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark"
-    tools:ignore="RtlSymmetry">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".nav_fragments.profileActivity">
 
     <ImageView
-        android:id="@+id/logo"
-        android:layout_width="80dp"
-        android:layout_height="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@drawable/logosignup"/>
 
     <TextView
-        android:id="@+id/nameText"
+        android:id="@+id/nameprofile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="-70dp"
         android:text="Name"
         android:fontFamily="@font/poppinsmedium"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
     <TextView
-        android:id="@+id/emailText"
+        android:id="@+id/emailprofile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
         android:fontFamily="@font/poppinsmedium"
         android:text="Email"
         android:textColor="@color/black"
-        android:textSize="15sp"
+        android:textSize="20sp"
         android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/backtoHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_rotate_90_degrees_cw_24"
+        android:layout_margin="20dp"/>
+
 </LinearLayout>
