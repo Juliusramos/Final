@@ -1,81 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgxx">
 
-
-<LinearLayout android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:background="@drawable/bgxx"
-    android:padding="16dp"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/about_foodish"
-            android:textStyle="bold"
-            android:textSize="24sp"
-            android:layout_gravity="center"
-            android:layout_marginTop="16dp"/>
-
-        <TextView
-            android:id="@+id/aboutText"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/foodish_is_a_filipino_food_recipe_application_that_provide_users_with_a_wide_range_of_recipes_typically_for_breakfast_lunch_and_dinner_meals_a_list_of_recipes_and_food_related_images_make_up_the_application_that_aims_to_simplify_and_help_user_enhance_their_cooking_experience_by_providing_a_diverse_array_of_recipe_along_with_helpful_features_to_help_improve_their_cooking_skills"
-            android:layout_gravity="center"
-            android:textStyle="bold"
-            android:layout_marginTop="32dp"
-            android:gravity="center"/>
+            android:orientation="vertical"
+            android:padding="16dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/our_team"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:layout_gravity="center"
-            android:layout_marginTop="32dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/foodish_title"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"/>
 
-        <!-- Center-aligned team member information with center-aligned text -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/menard_james_sayson_nbachelor_of_information_and_technology_programming_nsmenardjames_gmail_com"
-            android:layout_gravity="center"
-            android:layout_marginTop="16dp"
-            android:gravity="center"/>
+                <TextView
+                    android:id="@+id/aboutText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/foodish_description"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="32dp"
+                    android:gravity="center"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/mharvin_caramat_nbachelor_of_information_and_technology_programming_ncaramatmharvin_gmail_com"
-            android:layout_gravity="center"
-            android:layout_marginTop="16dp"
-            android:gravity="center"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/aljon_gutierrez_nbachelor_of_information_and_technology_programming_naljongutierrez08_gmail_com"
-            android:layout_gravity="center"
-            android:layout_marginTop="16dp"
-            android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mission"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="32dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/julius_adrian_ramos_nbachelor_of_information_and_technology_programming_njuliuscervantesramos_gmail_com"
-            android:layout_gravity="center"
-            android:layout_marginTop="16dp"
-            android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/foodish_mission"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/john_alexander_vargas_nbachelor_of_information_and_technology_programming_njobe_vargas_up_phinmaed_com"
-            android:layout_gravity="center"
-            android:layout_marginTop="16dp"
-            android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vision"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="32dp"/>
 
-    </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/foodish_vision"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/our_team"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="32dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/james"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mharvin"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aljon"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/julius"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alexander"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"/>
+
+
+        </LinearLayout>
+</ScrollView>

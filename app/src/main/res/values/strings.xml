@@ -8,7 +8,25 @@
     <string name="home" />
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mission">Mission</string>
+    <string name="vision">Vision</string>
 
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="edit_expense_name">Edit Expense Name</string>
+    <string name="edit_expense_amount_php">Edit Expense Amount (PHP)</string>
+    <string name="expense_text">Expense Text</string>
+
+    <string name="foodish_description">FooDish is a Filipino food recipe application that provide users with a wide range of recipes typically for breakfast,lunch, and dinner meals. A list of recipes and food-related images make up the application that aims to simplify and help user enhance their cooking experience by providing a diverse array of recipe along with helpful features to help improve their cooking skills.</string>
+    <string name="foodish_title">About FooDish</string>
+
+    <string name="james">Menard James Sayson\nBachelor of Information and Technology Programming\nsmenardjames@gmail.com</string>
+    <string name="mharvin">Mharvin Caramat\nBachelor of Information and Technology Programming\ncaramatmharvin@gmail.com</string>
+    <string name="aljon">Aljon Gutierrez\nBachelor of Information and Technology Programming\naljongutierrez08@gmail.com</string>
+    <string name="julius">Julius Adrian Ramos\nBachelor of Information and Technology Programming\njuliuscervantesramos@gmail.com</string>
+    <string name="alexander">John Alexander Vargas\nBachelor of Information and Technology Programming\njobe.vargas.up@phinmaed.com</string>
+    <string name="foodish_mission">Our mission is to make Filipino culinary heritage accessible and enjoyable. We offer a diverse range of recipes, food imagery, and a user-friendly platform to promote a passion for cooking and culinary creativity.</string>
+    <string name="foodish_vision">Our vision is to be the top choice for all seeking Filipino culinary exploration. We aim to evolve our app into a community for passionate home cooks and food enthusiasts. We envision FooDish as a symbol of culinary inspiration, offering a wide range of recipes and innovative features for users from all backgrounds.</string>
 
     <string name="open_drawer">Open Drawer</string>
     <string name="close_drawer">Close Drawer</string>
