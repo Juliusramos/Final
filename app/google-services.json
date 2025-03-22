@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "993843944317",
+    "project_id": "loginactivity-4c8c8",
+    "storage_bucket": "loginactivity-4c8c8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993843944317:android:98498d8f2b36f2004dca14",
+        "android_client_info": {
+          "package_name": "com.firstapp.loginactivity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXlesBwCJVPgzDPjr2czFhNdLxjHcCkzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
