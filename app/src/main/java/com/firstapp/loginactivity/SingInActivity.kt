@@ -1,6 +1,7 @@
 package com.firstapp.loginactivity
 
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.View
 import android.widget.*
@@ -17,10 +18,14 @@ class SingInActivity : AppCompatActivity() {
     private lateinit var signupRedirect: TextView
     private lateinit var dbHelper: DatabaseHelper
     private lateinit var auth: FirebaseAuth
+    private lateinit var sharedPreferences: SharedPreferences
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sing_in)
+
+        // Initialize SharedPreferences
+        sharedPreferences = getSharedPreferences("MyAppName", MODE_PRIVATE)
 
         // Initialize UI elements
         email = findViewById(R.id.email)
@@ -58,12 +63,18 @@ class SingInActivity : AppCompatActivity() {
                     loading.visibility = View.GONE
                     Toast.makeText(applicationContext, "Login Successful!", Toast.LENGTH_SHORT).show()
 
+                    // Save login status
+                    sharedPreferences.edit().putString("logged", "true").apply()
+
                     // Sync Firebase user to SQLite if not exists
                     if (!dbHelper.isUserExists(emailText)) {
                         dbHelper.insertUser(it.user?.displayName ?: "User", emailText, passwordText)
                     }
 
-                    startActivity(Intent(applicationContext, MainActivity::class.java))
+                    // 🚀 Redirect to OTP verification first, not MainActivity
+                    val intent = Intent(applicationContext, OTPTwilioActivity::class.java)
+                    intent.putExtra("user_email", emailText) // Pass email if needed
+                    startActivity(intent)
                     finish()
                 }
                 .addOnFailureListener {
@@ -71,6 +82,10 @@ class SingInActivity : AppCompatActivity() {
                     if (dbHelper.readUser(emailText, passwordText)) {
                         loading.visibility = View.GONE
                         Toast.makeText(applicationContext, "Logged in with SQLite!", Toast.LENGTH_SHORT).show()
+
+                        // Save login status
+                        sharedPreferences.edit().putString("logged", "true").apply()
+
                         startActivity(Intent(applicationContext, MainActivity::class.java))
                         finish()
                     } else {

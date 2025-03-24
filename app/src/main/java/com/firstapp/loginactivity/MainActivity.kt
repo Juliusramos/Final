@@ -15,11 +15,6 @@ import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
-import com.android.volley.Request
-import com.android.volley.Response
-import com.android.volley.VolleyError
-import com.android.volley.toolbox.StringRequest
-import com.android.volley.toolbox.Volley
 import com.firstapp.loginactivity.nav_fragments.AboutFragment
 import com.firstapp.loginactivity.nav_fragments.BudgetFragment
 import com.firstapp.loginactivity.nav_fragments.ConversionFragment
@@ -29,6 +24,9 @@ import com.firstapp.loginactivity.nav_fragments.profileActivity
 import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+
+    private lateinit var drawerLayout: DrawerLayout
+    private lateinit var sharedPreferences: SharedPreferences
 
     private val onBackPressedCallback = object : OnBackPressedCallback(true) {
         override fun handleOnBackPressed() {
@@ -44,11 +42,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         }
     }
 
-    private lateinit var drawerLayout: DrawerLayout
-    private lateinit var sharedPreferences: SharedPreferences
-
     override fun onCreate(savedInstanceState: Bundle?) {
-
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         onBackPressedDispatcher.addCallback(this, onBackPressedCallback)
@@ -59,37 +53,31 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         drawerLayout = findViewById(R.id.drawer_layout)
         sharedPreferences = getSharedPreferences("MyAppName", MODE_PRIVATE)
 
+        // Fixing login loop issue
+        if (sharedPreferences.getString("logged", "") != "true") {
+            startActivity(Intent(this, SingInActivity::class.java))
+            finish()
+        }
+
         val navigationView = findViewById<NavigationView>(R.id.navigationView)
         val header = navigationView.getHeaderView(0)
 
         val nametext = header.findViewById<TextView>(R.id.nameText)
         val emailtext = header.findViewById<TextView>(R.id.emailText)
-        val logo = header.findViewById<ImageView>(R.id.logo)
-
-
-        if (sharedPreferences.getString("logged", "false") == "false") {
-            val intent = Intent(applicationContext, SingInActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
 
         nametext.text = sharedPreferences.getString("name", "")
         emailtext.text = sharedPreferences.getString("email", "")
-
 
         navigationView.setNavigationItemSelectedListener(this)
 
         val toggle = ActionBarDrawerToggle(
             this, drawerLayout, toolbar, R.string.open_drawer, R.string.close_drawer
         )
-
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
 
-
         replaceFragment(HomeFragment())
         navigationView.setCheckedItem(R.id.nav_home)
-
     }
 
     private fun replaceFragment(fragment: Fragment) {
@@ -101,15 +89,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.nav_home -> {
-                replaceFragment(HomeFragment())
-            }
-
+            R.id.nav_home -> replaceFragment(HomeFragment())
             R.id.nav_conversion_tool -> {
                 replaceFragment(ConversionFragment())
                 title = "Conversion Tool"
             }
-
             R.id.nav_budget_tracking -> {
                 replaceFragment(BudgetFragment())
                 title = "Budget Tracking"
@@ -118,61 +102,26 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 replaceFragment(DishRandomizerFragment())
                 title = "Dish Randomizer"
             }
-
             R.id.nav_profile -> {
-                val intent = Intent(this,profileActivity::class.java)
+                val intent = Intent(this, profileActivity::class.java)
                 startActivity(intent)
                 title = "Profile"
             }
-
             R.id.nav_about -> {
                 replaceFragment(AboutFragment())
                 title = "About Us"
             }
-
             R.id.nav_logout -> {
-                val queue = Volley.newRequestQueue(applicationContext)
-                val url = "http://172.20.10.2/LoginRegister/logout.php"
+                val editor = sharedPreferences.edit()
+                editor.putString("logged", "false") // Set logged to false instead of removing
+                editor.apply()
 
-                val stringRequest = object : StringRequest(
-                    Request.Method.POST, url,
-                    Response.Listener<String> { response ->
+                Toast.makeText(this, "Logged out successfully", Toast.LENGTH_SHORT).show()
 
-                        Log.d("Logout Response", response) // Add this line for debugging
-
-                        if (response == "success") {
-                            val editor = sharedPreferences.edit()
-                            editor.putString("logged", "")
-                            editor.putString("name", "")
-                            editor.putString("email", "")
-                            editor.putString("apiKey", "")
-                            editor.apply()
-                            Toast.makeText(this, "Logout Account", Toast.LENGTH_SHORT).show()
-                            val intent = Intent(applicationContext, SingInActivity::class.java)
-                            startActivity(intent)
-                            finish()
-                        } else {
-                            Log.e(
-                                "Logout Error",
-                                "Logout failed: $response"
-                            ) // Add this line for debugging
-                            Toast.makeText(this, response, Toast.LENGTH_SHORT).show()
-                        }
-                    },
-                    Response.ErrorListener { error: VolleyError ->
-                        error.printStackTrace()
-                    }) {
-                    override fun getParams(): MutableMap<String, String> {
-                        val email = sharedPreferences.getString("email", "") ?: ""
-                        val apiKey = sharedPreferences.getString("apiKey", "") ?: ""
-
-                        return hashMapOf(
-                            "email" to email,
-                            "apiKey" to apiKey
-                        )
-                    }
-                }
-                queue.add(stringRequest)
+                val intent = Intent(this, SingInActivity::class.java)
+                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                startActivity(intent)
+                finish()
             }
         }
         drawerLayout.closeDrawer(GravityCompat.START)
